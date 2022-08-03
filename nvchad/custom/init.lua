@@ -10,3 +10,9 @@ autocmd("Filetype", {
       vim.opt_local.softtabstop = 4
    end,
 })
+
+autocmd("VimEnter", {
+  callback = function()
+    require("auto-save")
+  end
+})

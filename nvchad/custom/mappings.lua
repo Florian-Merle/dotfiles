@@ -9,11 +9,16 @@ M.generals = {
 
 M.windows = {
   n = {
-    ["<C-l>"] = { "<C-w>l", "todo" },
-    ["<C-h>"] = { "<C-w>h", "todo" },
-    ["<C-j>"] = { "<C-w>j", "todo" },
-    ["<C-k>"] = { "<C-w>k", "todo" },
+    ["<leader>wl"] = { "<C-w>l", " window right" },
+    ["<leader>wh"] = { "<C-w>h", " window left" },
+    ["<leader>wj"] = { "<C-w>j", " window bottom" },
+    ["<leader>wk"] = { "<C-w>k", " window top" },
+    ["<A-l>"] = { ":TmuxNavigateRight<CR>", " window right (tmux included)" },
+    ["<A-h>"] = { ":TmuxNavigateLeft<CR>", " window left (tmux included)" },
+    ["<A-j>"] = { ":TmuxNavigateDown<CR>", " window bottom (tmux included)" },
+    ["<M-k>"] = { ":TmuxNavigateUp<CR>", " window top (tmux included)" },
   },
+
 }
 
 M.telescope = {

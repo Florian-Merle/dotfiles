@@ -18,10 +18,9 @@ M.treesitter = {
 }
 
 M.nvimtree = {
-  -- fixme
-  -- update_focus_file = {
-  --   enable = false
-  -- },
+  update_focused_file = {
+    enable = false
+  },
   git = {
     enable = true,
     ignore = false,
