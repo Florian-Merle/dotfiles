@@ -28,4 +28,12 @@ M.telescope = {
   },
 }
 
+M.tree = {
+  n = {
+    ["<leader>rf"] = { ":NvimTreeFindFile<CR>", "find file in tree" },
+    ["<leader>rc"] = { ":NvimTreeCollapse<CR>", "collaps tree" },
+  },
+}
+
 return M
+
