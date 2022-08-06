@@ -16,7 +16,7 @@ M.windows = {
     ["<A-l>"] = { ":TmuxNavigateRight<CR>", " window right (tmux included)" },
     ["<A-h>"] = { ":TmuxNavigateLeft<CR>", " window left (tmux included)" },
     ["<A-j>"] = { ":TmuxNavigateDown<CR>", " window bottom (tmux included)" },
-    ["<M-k>"] = { ":TmuxNavigateUp<CR>", " window top (tmux included)" },
+    ["<A-k>"] = { ":TmuxNavigateUp<CR>", " window top (tmux included)" },
   },
 
 }
