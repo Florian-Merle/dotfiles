@@ -9,6 +9,10 @@ M.generals = {
 
 M.windows = {
   n = {
+    ["<leader>w%"] = { ":vsp<CR>", "% split window vertically" },
+    ["<leader>w\""] = { ":sp<CR>", "\" split window horizontally" },
+    ["<leader>wq"] = { "<C-w>q", " close window" },
+    ["<leader>wz"] = { ":MaximizerToggle<CR>", "  maximize window" },
     ["<leader>wl"] = { "<C-w>l", " window right" },
     ["<leader>wh"] = { "<C-w>h", " window left" },
     ["<leader>wj"] = { "<C-w>j", " window bottom" },

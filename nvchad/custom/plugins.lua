@@ -18,4 +18,8 @@ return  {
       }
     end,
   },
+
+  ["szw/vim-maximizer"] = {
+    cmd = "MaximizerToggle",
+  },
 }
