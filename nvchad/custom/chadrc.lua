@@ -19,7 +19,7 @@ M.plugins = {
   override = {
     ["nvim-treesitter/nvim-treesitter"] = override.treesitter,
     ["kyazdani42/nvim-tree.lua"] = override.nvimtree,
-  }
+  },
 }
 
 M.mappings = mappings

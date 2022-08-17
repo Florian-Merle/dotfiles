@@ -16,3 +16,9 @@ autocmd("VimEnter", {
     require("auto-save")
   end
 })
+
+autocmd("VimEnter", {
+  callback = function()
+    vim.opt.timeoutlen = 100
+  end
+})

@@ -17,5 +17,5 @@ return  {
         debounce_delay = 500,
       }
     end,
-  }
+  },
 }
