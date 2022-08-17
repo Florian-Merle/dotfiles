@@ -47,7 +47,24 @@ M.telescope = {
           telescope.find_files({ cwd=cwd, no_ignore=true })
         end
       end,
-      "  file in directory",
+      "  find files in directory",
+    },
+    ["<leader>fg"] = {
+      function()
+        local lib = require "nvim-tree.lib"
+        local node = lib.get_node_at_cursor()
+
+        if node then
+          local cwd = node.cwd or node.link_to or node.absolute_path
+          if vim.fn.isdirectory(cwd) ~= 0 == false then
+            cwd = node.parent.cwd or node.parent.link_to or node.parent.absolute_path
+          end
+
+          local telescope = require "telescope.builtin"
+          telescope.live_grep({ cwd=cwd, no_ignore=true })
+        end
+      end,
+      "  find in files in directory",
     },
   },
 }
