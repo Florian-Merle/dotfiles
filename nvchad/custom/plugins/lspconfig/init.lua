@@ -11,7 +11,7 @@ for _, lsp in ipairs(servers) do
     on_attach = attach,
     capabilities = capabilities,
     flags = {
-      debounce_text_changes = 300,
+      debounce_text_changes = 150,
     },
   }
 end
