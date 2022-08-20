@@ -35,35 +35,25 @@ M.telescope = {
     ["gr"] = { ":Telescope lsp_references<CR>", "  find references" },
     ["<leader>fd"] = {
       function()
-        local lib = require "nvim-tree.lib"
-        local node = lib.get_node_at_cursor()
-
-        if node then
-          local cwd = node.cwd or node.link_to or node.absolute_path
-          if vim.fn.isdirectory(cwd) ~= 0 == false then
-            cwd = node.parent.cwd or node.parent.link_to or node.parent.absolute_path
-          end
-
-          local telescope = require "telescope.builtin"
-          telescope.find_files({ cwd=cwd, no_ignore=true })
+        local cwd = require('custom.plugins.directory').current_file_directory()
+        if nil == cwd then
+          return
         end
+
+        local telescope = require "telescope.builtin"
+        telescope.find_files({ cwd=cwd, no_ignore=true })
       end,
       "  find files in directory",
     },
     ["<leader>fg"] = {
       function()
-        local lib = require "nvim-tree.lib"
-        local node = lib.get_node_at_cursor()
-
-        if node then
-          local cwd = node.cwd or node.link_to or node.absolute_path
-          if vim.fn.isdirectory(cwd) ~= 0 == false then
-            cwd = node.parent.cwd or node.parent.link_to or node.parent.absolute_path
-          end
-
-          local telescope = require "telescope.builtin"
-          telescope.live_grep({ cwd=cwd, no_ignore=true })
+        local cwd = require('custom.plugins.directory').current_file_directory()
+        if nil == cwd then
+          return
         end
+
+        local telescope = require "telescope.builtin"
+        telescope.live_grep({ cwd=cwd, no_ignore=true })
       end,
       "  find in files in directory",
     },
@@ -78,4 +68,3 @@ M.tree = {
 }
 
 return M
-
