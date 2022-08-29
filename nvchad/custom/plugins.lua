@@ -22,4 +22,8 @@ return  {
   ["szw/vim-maximizer"] = {
     cmd = "MaximizerToggle",
   },
+
+  ["folke/which-key.nvim"] = {
+    disable = false,
+  },
 }
