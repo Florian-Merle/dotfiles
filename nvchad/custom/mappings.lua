@@ -46,8 +46,7 @@ M.telescope = {
           return
         end
 
-        local telescope = require "telescope.builtin"
-        telescope.find_files({ cwd=cwd, no_ignore=true })
+        vim.cmd('Telescope find_files no_ignore=true cwd=' .. cwd)
       end,
       "  find files in directory",
     },
@@ -58,8 +57,7 @@ M.telescope = {
           return
         end
 
-        local telescope = require "telescope.builtin"
-        telescope.live_grep({ cwd=cwd, no_ignore=true })
+        vim.cmd('Telescope live_grep no_ignore=true cwd=' .. cwd)
       end,
       "  find in files in directory",
     },
