@@ -35,4 +35,19 @@ M.nvimtree = {
   },
 }
 
+M.telescope = {
+  pickers = {
+    buffers = {
+      -- sort_mru = true,
+      ignore_current_buffer = true,
+    },
+  },
+
+  extensions_list = {
+    "themes",
+    "terms",
+    "fzf",
+  },
+}
+
 return M

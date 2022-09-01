@@ -26,4 +26,9 @@ return  {
   ["folke/which-key.nvim"] = {
     disable = false,
   },
+
+  ["nvim-telescope/telescope-fzf-native.nvim"] = {
+    module = "telescope",
+    run = "make",
+  },
 }
