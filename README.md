@@ -1,5 +1,11 @@
 # Install
 
+## Aliases
+
+```sh
+todo
+```
+
 ## Phpactor
 
 ```sh
@@ -38,4 +44,7 @@ See https://unix.stackexchange.com/a/456356
 # Todo
 
 * Add regolith config
+* Add zsh conf
+* Add vim config
+* Fix Alt+{hjkl} mappings in vim
 * Write installation guide
