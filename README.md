@@ -9,11 +9,15 @@ todo
 ## Phpactor
 
 ```sh
+# phpactor binary
 cd ~/.local/share
 git clone git@github.com:phpactor/phpactor.git
 composer i
 cd /usr/local/bin
 ln -s ~/.local/share/phpactor/bin/phpactor phpactor
+
+# phpactor configuration
+ln -s ~/dotfiles/phpactor.json  ~/.config/phpactor/phpactor.json
 ```
 
 ## fzf
