@@ -16,3 +16,10 @@ ln -s ~/.local/share/phpactor/bin/phpactor phpactor
 ```sh
 sudo apt-get install fzf
 ```
+
+## Tmux Gruvbox theme
+
+```sh
+cd ~
+git clone git@github.com:egel/tmux-gruvbox.git
+```
