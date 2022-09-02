@@ -1,0 +1,45 @@
+[alias]
+  editconf = !vim ~/.gitconfig
+  graph = log --all --decorate --oneline --graph
+  st = status
+  co = checkout
+  cb = checkout -b
+  cm = commit -m
+  cma = commit -m "a"
+  ca = commit --amend
+  can = commit --amend --no-edit
+  br = branch
+  brr = ! watch -t -n 1 --color "git branch --color"
+  b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+  logo = log --oneline
+  logor = ! watch -t -n 1 --color "git --no-pager log --oneline --color -20 --decorate"
+  lm = ! git logo -n $(git rev-list origin/master..HEAD --count)
+  pa = pull --all
+  df = diff
+  dc = diff --cached
+  rpo = remote prune origin
+  po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+  pof = po -f
+  r = rebase
+  ro = rebase --onto
+  ri = rebase -i
+  rc = rebase --continue
+  ra = rebase --abort
+  rs = rebase --skip
+  re = restore
+  res = restore --staged
+  ap = add * -p
+  sta = stash
+  stl = stash list
+  stp = stash pop
+  stc = stash clear
+  sc = show --color --pretty=format:%b
+  fa = fetch --all
+[help]
+  autocorrect = 40
+[user]
+  name = Florian Merle
+  email = florian.david.merle@gmail.com
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
