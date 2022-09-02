@@ -33,6 +33,36 @@ M.nvimtree = {
       },
     },
   },
+  view = {
+    mappings = {
+      list = {
+        {
+          key = "fd",
+          action = "find_files",
+          action_cb = function ()
+            local cwd = require('custom.plugins.nvimtree.actions').get_target_dir()
+            if nil == cwd then
+              return
+            end
+
+            vim.cmd('Telescope find_files no_ignore=true cwd=' .. cwd)
+          end,
+        },
+        {
+          key = "fg",
+          action = "live_grep",
+          action_cb = function ()
+            local cwd = require('custom.plugins.nvimtree.actions').get_target_dir()
+            if nil == cwd then
+              return
+            end
+
+            vim.cmd('Telescope live_grep no_ignore=true cwd=' .. cwd)
+          end,
+        },
+      },
+    },
+  },
 }
 
 M.telescope = {

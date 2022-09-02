@@ -1,11 +1,10 @@
 local M = {}
 
--- returns the directory of nvim-tree current file
-M.current_file_directory = function()
+M.get_target_dir = function()
   local lib = require "nvim-tree.lib"
   local node = lib.get_node_at_cursor()
 
-  if node == nil then
+  if not node then
     return nil
   end
 

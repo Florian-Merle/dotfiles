@@ -39,28 +39,6 @@ M.telescope = {
     ["<leader>bb"] = { ":Telescope buffers<CR>", "  find buffers" },
     ["<leader>gl"] = { ":Telescope git_bcommits<CR>", "  find git branch commits" },
     ["gr"] = { ":Telescope lsp_references<CR>", "  find references" },
-    ["<leader>fd"] = {
-      function()
-        local cwd = require('custom.plugins.directory').current_file_directory()
-        if nil == cwd then
-          return
-        end
-
-        vim.cmd('Telescope find_files no_ignore=true cwd=' .. cwd)
-      end,
-      "  find files in directory",
-    },
-    ["<leader>fg"] = {
-      function()
-        local cwd = require('custom.plugins.directory').current_file_directory()
-        if nil == cwd then
-          return
-        end
-
-        vim.cmd('Telescope live_grep no_ignore=true cwd=' .. cwd)
-      end,
-      "  find in files in directory",
-    },
   },
 }
 
