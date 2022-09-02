@@ -31,4 +31,8 @@ return  {
     module = "telescope",
     run = "make",
   },
+
+  ["phpactor/phpactor"] = {
+    run = "composer install --no-dev -o",
+  },
 }

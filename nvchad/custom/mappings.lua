@@ -49,4 +49,15 @@ M.tree = {
   },
 }
 
+M.phpactor = {
+  n = {
+    ["<leader>cp"] = {
+      function()
+        vim.cmd("PhpactorContextMenu")
+      end,
+      "open phpactor context menu",
+    },
+  },
+}
+
 return M
