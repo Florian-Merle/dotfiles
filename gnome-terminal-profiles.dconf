@@ -1,0 +1,79 @@
+[/]
+default='93390ca0-99dd-42d6-b336-ce8b88ced58c'
+list=['83c86c38-ca3a-4a09-b869-ce5106d9ce74', '93390ca0-99dd-42d6-b336-ce8b88ced58c', '8f6cd0fa-d1c2-41ee-bb39-d0b28bf812c0']
+
+[:83c86c38-ca3a-4a09-b869-ce5106d9ce74]
+audible-bell=false
+background-color='#FAFAFA'
+background-transparency-percent=4
+bold-color='#478ACC'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cursor-background-color='#575F66'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#E65050'
+font='Hack Nerd Font Mono 12'
+foreground-color='#575F66'
+highlight-background-color='#575F66'
+highlight-colors-set=true
+highlight-foreground-color='#FAFAFA'
+nord-gnome-terminal-version='0.1.0'
+palette=['#FAFAFA', '#E65050', '#86B300', '#FFAA33', '#478ACC', '#9F40FF', '#4CBF99', '#575F66', '#575F66', '#F07171', '#6CBF43', '#F2AE49', '#399EE6', '#A37ACC', '#4CBF99', '#8A9199']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Regolith'
+
+[:8f6cd0fa-d1c2-41ee-bb39-d0b28bf812c0]
+audible-bell=false
+background-color='#F9F9F9'
+background-transparency-percent=4
+bold-color='#383A42'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-background-color='#575F66'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#E65050'
+font='Hack Nerd Font Mono 12'
+foreground-color='#383A42'
+highlight-background-color='#575F66'
+highlight-colors-set=true
+highlight-foreground-color='#FAFAFA'
+palette=['#000000', '#E45649', '#50A14F', '#986801', '#4078F2', '#A626A4', '#0184BC', '#A0A1A7', '#5c6370', '#E45649', '#50A14F', '#986801', '#4078F2', '#A626A4', '#0184BC', '#ffffff']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='One Light (Original)'
+
+[:93390ca0-99dd-42d6-b336-ce8b88ced58c]
+audible-bell=false
+background-color='#F9F9F9'
+background-transparency-percent=4
+bold-color='#383A42'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-background-color='#575F66'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#E65050'
+font='Hack Nerd Font Mono 12'
+foreground-color='#383A42'
+highlight-background-color='#575F66'
+highlight-colors-set=true
+highlight-foreground-color='#FAFAFA'
+nord-gnome-terminal-version='0.1.0'
+palette=['rgb(0,0,0)', 'rgb(228,86,73)', 'rgb(80,161,79)', 'rgb(239,176,42)', 'rgb(64,120,242)', 'rgb(166,38,164)', 'rgb(1,132,188)', 'rgb(212,214,223)', 'rgb(136,143,154)', 'rgb(228,86,73)', 'rgb(80,161,79)', 'rgb(239,176,42)', 'rgb(64,120,242)', 'rgb(166,38,164)', 'rgb(1,132,188)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='One Light'

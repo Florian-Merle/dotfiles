@@ -1,4 +1,3 @@
-
 # Install
 
 ## Phpactor
@@ -23,3 +22,20 @@ sudo apt-get install fzf
 cd ~
 git clone git@github.com:egel/tmux-gruvbox.git
 ```
+
+## Gnome terminal profile
+
+```sh
+# Create profile
+dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+
+# Install profile
+dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
+```
+
+See https://unix.stackexchange.com/a/456356
+
+# Todo
+
+* Add regolith config
+* Write installation guide
