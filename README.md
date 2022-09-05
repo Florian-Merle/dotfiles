@@ -48,6 +48,9 @@ See https://unix.stackexchange.com/a/456356
 # Todo
 
 * Add regolith config
+* Add a spell checker
+* Make cursor centered
+* Add git stuff in nvim
 * Add zsh conf
 * Add vim config
 * Fix Alt+{hjkl} mappings in vim
