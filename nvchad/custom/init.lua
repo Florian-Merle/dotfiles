@@ -22,3 +22,5 @@ autocmd("VimEnter", {
     vim.opt.timeoutlen = 100
   end
 })
+
+vim.opt.relativenumber = true
