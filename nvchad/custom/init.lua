@@ -1,4 +1,5 @@
 local autocmd = vim.api.nvim_create_autocmd
+local augroup = vim.api.nvim_create_augroup
 
 -- File extension specific tabbing
 autocmd("Filetype", {
@@ -21,6 +22,18 @@ autocmd("VimEnter", {
   callback = function()
     vim.opt.timeoutlen = 100
   end
+})
+
+local yank_group = augroup("HighlightYank", {})
+autocmd('TextYankPost', {
+  group = yank_group,
+  pattern = "*",
+  callback = function()
+    vim.highlight.on_yank({
+      higroup = "IncSearch",
+      timeout = 120,
+    })
+  end,
 })
 
 vim.opt.relativenumber = true
