@@ -45,6 +45,24 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 
 See https://unix.stackexchange.com/a/456356
 
+## regolith2 config
+
+Global configuration
+
+```sh
+ln -s ~/dotfiles/regolith2/Xresources ~/.config/regolith2/Xresources
+```
+
+Status bar configuration
+
+```sh
+$ ls -l /usr/share/i3xrocks/conf.d
+01_setup
+70_rofication
+80_time
+90_battery
+```
+
 # Todo
 
 * Add regolith config
