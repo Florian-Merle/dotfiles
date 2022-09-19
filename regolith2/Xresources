@@ -1,8 +1,8 @@
 regolith.look.path: /usr/share/regolith-look/ayu
 
-regolith.wallpaper.file: ~/Pictures/Wavey\ Rainbow.jpg
+regolith.wallpaper.file: ~/dotfiles/Wavey_Rainbow.jpg
 regolith.wallpaper.options: zoom
-regolith.lockscreen.wallpaper.file: ~/Pictures/Wavey\ Rainbow.jpg
+regolith.lockscreen.wallpaper.file: ~/dotfiles/Wavey_Rainbow.jpg
 regolith.lockscreen.wallpaper.options: zoom
 
 i3-wm.gaps.inner.size: 25

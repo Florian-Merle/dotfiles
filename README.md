@@ -1,5 +1,11 @@
 # Install
 
+I recommend cloning this repository into `~/dotfiles` so the wallpaper image and the install guide work without any adjustment.
+
+```sh
+git clone git@github.com:Florian-Merle/dotfiles.git ~/dotfiles
+```
+
 ## Aliases
 
 ```sh
@@ -45,7 +51,7 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 
 See https://unix.stackexchange.com/a/456356
 
-## regolith2 config
+## Regolith 2 config
 
 Global configuration
 
@@ -63,9 +69,12 @@ $ ls -l /usr/share/i3xrocks/conf.d
 90_battery
 ```
 
+# Credits
+
+Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
+
 # Todo
 
-* Add regolith config
 * Add a spell checker
 * Make cursor centered
 * Add git stuff in nvim
