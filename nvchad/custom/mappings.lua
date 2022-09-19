@@ -6,9 +6,15 @@ M.generals = {
     ["<leader>fs"] = { ":w<CR>", "save file" },
     ["<leader>X"] = {
       function()
-        require('custom.plugins.utils').close_all_bugs_except_current()
+        require('custom.plugins.utils').close_all_bufs_except_current()
       end,
       " close buffers except current one",
+    },
+    ["<leader>W"] = {
+      function()
+        require('custom.plugins.utils').close_all_bufs()
+      end,
+      " close buffers",
     },
   }
 }

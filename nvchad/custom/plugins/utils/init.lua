@@ -1,6 +1,15 @@
 local M = {}
 
-M.close_all_bugs_except_current = function()
+M.close_all_bufs= function()
+  local utils = require('core.utils')
+  local bufs = utils.bufilter()
+
+  for _, buf in ipairs(bufs) do
+      vim.cmd("bd" .. buf)
+  end
+end
+
+M.close_all_bufs_except_current = function()
   local utils = require('core.utils')
   local bufs = utils.bufilter()
   local current_buf = vim.api.nvim_get_current_buf()
