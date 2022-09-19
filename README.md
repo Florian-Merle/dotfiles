@@ -28,6 +28,8 @@ ln -s ~/dotfiles/phpactor.json  ~/.config/phpactor/phpactor.json
 
 ## fzf
 
+Used to search files more efficiently in Neovim.
+
 ```sh
 sudo apt-get install fzf
 ```
