@@ -6,10 +6,17 @@ I recommend cloning this repository into `~/dotfiles` so the wallpaper image and
 git clone git@github.com:Florian-Merle/dotfiles.git ~/dotfiles
 ```
 
-## Aliases
+## Zsh
 
 ```sh
-todo
+sudo apt install zsh
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+sudo apt install bat
+
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.oh-my-zsh/themes/agnoster-custom.zsh-theme ~/.oh-my-zsh/themes/agnoster-custom.zsh-theme
 ```
 
 ## Phpactor

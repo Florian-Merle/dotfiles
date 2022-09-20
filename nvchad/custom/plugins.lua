@@ -35,4 +35,7 @@ return  {
   ["phpactor/phpactor"] = {
     run = "composer install --no-dev -o",
   },
+
+  ["nvim-treesitter/nvim-treesitter-context"] = {
+  },
 }
