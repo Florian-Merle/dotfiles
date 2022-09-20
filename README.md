@@ -85,9 +85,8 @@ Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wave
 # Todo
 
 * Add a spell checker
-* Make cursor centered
 * Add git stuff in nvim
-* Add zsh conf
+* Improve zsh conf
 * Add vim config
 * Fix Alt+{hjkl} mappings in vim
 * Write installation guide
