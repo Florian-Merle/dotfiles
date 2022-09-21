@@ -78,6 +78,27 @@ $ ls -l /usr/share/i3xrocks/conf.d
 90_battery
 ```
 
+# Installation on an X1 carbon
+
+On my X1 carbon, I like to remap the print screen key to the context menu. This can be done following [this guide](https://askubuntu.com/a/1219481).
+
+```
+# /usr/share/X11/xkb/keycodes/evdev
+
+default xkb_keycodes "evdev" {
+    // ...
+
+    // Custom
+    alias <MENU> = <PRSC>;
+};
+```
+
+I also like to invert the function and the ctrl keys, this can easily be done in the BIOS.
+
+Finally, I like to remap the caps lock to escape. It's quite a pain in the ass to configure so I recommend installing Gnome tweaks and setting it through the GUI. See the following screenshot.
+
+![Remap caps lock screenshot](images/caps_lock_remap_screenshot.png)
+
 # Credits
 
 Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
