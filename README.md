@@ -80,6 +80,8 @@ $ ls -l /usr/share/i3xrocks/conf.d
 
 # Installation on an X1 carbon
 
+## Remap Print Screen with Context menu
+
 On my X1 carbon, I like to remap the print screen key to the context menu. This can be done following [this guide](https://askubuntu.com/a/1219481).
 
 ```
@@ -93,11 +95,21 @@ default xkb_keycodes "evdev" {
 };
 ```
 
+## Swapping Ctrl with Function
+
 I also like to invert the function and the ctrl keys, this can easily be done in the BIOS.
 
-Finally, I like to remap the caps lock to escape. It's quite a pain in the ass to configure so I recommend installing Gnome tweaks and setting it through the GUI. See the following screenshot.
+## Swapping Caps Lock with Escape
 
-![Remap caps lock screenshot](images/caps_lock_remap_screenshot.png)
+1. `sudo apt install dconf-tools`
+2. `dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"`
+
+Alternatively, you can use the `dconf-editor` GUI once DConf tools are installed.
+
+> Use `caps:escape` instead if you want to just set Caps Lock to Escape instead
+> of swapping the functionality of the keys.
+
+Credit to [@zanbaldwin](https://github.com/zanbaldwin/dotfiles/blob/main/README.md#swapping-caps-lock-with-escape)
 
 # Credits
 
