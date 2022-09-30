@@ -125,3 +125,5 @@ alias xc='xclip -selection c'
 
 alias git="echo -n \"💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩\n💩                              💩\n💩 Ho pélo utilise g à la place 💩\n💩                              💩\n💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩\n\" && sleep 1 && read ans && /usr/bin/git"
 # alias git="echo -n \"Pelo utilise g à la place [y/N] \" && read ans && [ $${ans:-N} = y ] && /usr/bin/git"
+
+alias nv=nvim
