@@ -113,4 +113,17 @@ M.git = {
   },
 }
 
+M.replacer = {
+  n = {
+    ["<leader>rr"] = {
+      function()
+        require("replacer").run({
+          rename_files = false,
+        })
+      end,
+      "replace in quickfix list",
+    },
+  },
+}
+
 return M
