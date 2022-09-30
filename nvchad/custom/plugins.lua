@@ -36,6 +36,9 @@ return  {
     run = "composer install --no-dev -o",
   },
 
-  ["nvim-treesitter/nvim-treesitter-context"] = {
+  ["tpope/vim-fugitive"] = {
+  },
+
+  ["gabrielpoca/replacer.nvim"] = {
   },
 }

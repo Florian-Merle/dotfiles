@@ -66,4 +66,51 @@ M.phpactor = {
   },
 }
 
+M.git = {
+  n = {
+    ["<leader>gg"] = {
+      function()
+        vim.cmd("Git")
+      end,
+      "git status",
+    },
+    ["<leader>gf"] = {
+      function()
+        vim.cmd("diffget //2")
+      end,
+      "apply left diff",
+    },
+    ["<leader>gh"] = {
+      function()
+        vim.cmd("diffget //3")
+      end,
+      "apply right diff",
+    },
+    ["<leader>gs"] = {
+      function()
+        require("gitsigns").stage_hunk()
+      end,
+      "stage hunk",
+    },
+    ["<leader>gu"] = {
+      function()
+        require("gitsigns").undo_stage_hunk()
+      end,
+      "unstage hunk",
+    },
+    ["<leader>gr"] = {
+      function()
+        require("gitsigns").reset_hunk()
+      end,
+      "reset hunk",
+    },
+    ["<leader>gp"] = {
+      function()
+        require("gitsigns").preview_hunk()
+      end,
+      "preview hunk",
+    },
+  },
+}
+
 return M
