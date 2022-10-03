@@ -4,6 +4,7 @@ M.treesitter = {
   ensure_installed = {
     "php",
     "html",
+    "twig",
     "css",
     "javascript",
     "json",
