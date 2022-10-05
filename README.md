@@ -78,6 +78,15 @@ $ ls -l /usr/share/i3xrocks/conf.d
 90_battery
 ```
 
+## Notifications
+
+```
+# Disable network notifications
+gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"
+gsettings set org.gnome.nm-applet disable-connected-notifications "true"
+```
+
+
 # Installation on an X1 carbon
 
 ## Remap Print Screen with Context menu
