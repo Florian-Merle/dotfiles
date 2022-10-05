@@ -78,6 +78,12 @@ return  {
           action = "Telescope find_files",
         },
         {
+          icon ="  ",
+          shortcut = "<leader>.",
+          desc = "find in files   ",
+          action = "Telescope live_grep",
+        },
+        {
           icon ="  ",
           shortcut = "<leader>qq",
           desc = "quit            ",
@@ -87,7 +93,7 @@ return  {
       }
 
       dashboard.custom_footer = {
-        require("custom.plugins.directory").root_dir()
+        '🚀 ' .. require("custom.plugins.directory").root_dir()
       }
     end
   },
