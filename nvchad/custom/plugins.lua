@@ -41,4 +41,14 @@ return  {
 
   ["gabrielpoca/replacer.nvim"] = {
   },
+
+  ["petertriho/nvim-scrollbar"] = {
+    config = function()
+      require("scrollbar").setup({
+        handle = {
+            color = '#A6A6A6',
+        },
+      })
+    end,
+  },
 }
