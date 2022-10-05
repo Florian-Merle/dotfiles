@@ -1,5 +1,23 @@
 local M = {}
 
+M.disabled = {
+  t = {
+    -- disable default nvterm mappings
+    ["<A-i>"] = "",
+    ["<A-h>"] = "",
+    ["<A-v>"] = "",
+  },
+
+  n = {
+    -- disable default nvterm mappings
+    ["<A-i>"] = "",
+    ["<A-h>"] = "",
+    ["<A-v>"] = "",
+    ["<leader>h"] = "",
+    ["<leader>v"] = "",
+  }
+}
+
 M.general = {
   n = {
     ["<leader>qq"] = { ":xa!<CR>", "quit nvim" },
@@ -136,6 +154,38 @@ M.replacer = {
         })
       end,
       "replace in quickfix list",
+    },
+  },
+}
+
+M.nvterm = {
+  t = {
+    ["<A-i>"] = {
+      function()
+        require("nvterm.terminal").toggle "horizontal"
+      end,
+      "toggle horizontal term",
+    },
+    ["<A-o>"] = {
+      function()
+        require("nvterm.terminal").toggle "vertical"
+      end,
+      "toggle vertical term",
+    },
+  },
+
+  n = {
+    ["<A-i>"] = {
+      function()
+        require("nvterm.terminal").toggle "horizontal"
+      end,
+      "toggle horizontal term",
+    },
+    ["<A-o>"] = {
+      function()
+        require("nvterm.terminal").toggle "vertical"
+      end,
+      "toggle vertical term",
     },
   },
 }
