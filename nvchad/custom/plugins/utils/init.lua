@@ -29,6 +29,24 @@ M.get_buffers = function (ignore_current_buffer, sort_mru)
   return buffers
 end
 
+M.get_last_buffer = function()
+  local buffers = M.get_buffers{ignore_current_buffer=true}
+
+  table.sort(buffers, function(a, b)
+    return vim.fn.getbufinfo(a)[1].lastused > vim.fn.getbufinfo(b)[1].lastused
+  end)
+
+  return buffers[1];
+end
+
+M.switch_to_last_buffer = function()
+  local last_buffer = M.get_last_buffer()
+
+  if nil ~= last_buffer then
+    vim.cmd(string.format("b %s", last_buffer))
+  end
+end
+
 M.close_all_bufs= function()
   local bufdelete = require('bufdelete')
 

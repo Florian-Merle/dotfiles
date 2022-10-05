@@ -22,6 +22,12 @@ M.general = {
       end,
       "close buffers",
     },
+    ["<leader>b<TAB>"] = {
+      function()
+        require("custom.plugins.utils").switch_to_last_buffer()
+      end,
+      "last buffer",
+    },
   }
 }
 
