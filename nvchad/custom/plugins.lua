@@ -99,7 +99,8 @@ return  {
   },
 
   ["lukas-reineke/indent-blankline.nvim"] = {
-    override_options = {
+  config = function()
+    require("indent_blankline").setup {
       filetype_exclude = {
         "help",
         "terminal",
@@ -112,7 +113,8 @@ return  {
         "dashboard",
         "",
       },
-    },
+    }
+  end
   },
 
   ["famiu/bufdelete.nvim"] = {
