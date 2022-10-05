@@ -10,7 +10,9 @@ return  {
   ["christoomey/vim-tmux-navigator"] = {
   },
 
-  ["Pocco81/auto-save.nvim"] = {
+  -- use fork of Pocco81/auto-save.nvim, because it solves an issue with buffer id that is invalid
+  -- see https://github.com/Pocco81/auto-save.nvim/issues/46#issuecomment-1211868586
+  ["nvim-zh/auto-save.nvim"] = {
     module = "auto-save",
     config = function()
       require("auto-save").setup {
