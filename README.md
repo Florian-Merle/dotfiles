@@ -132,3 +132,5 @@ Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wave
 * Add vim config
 * Fix Alt+{hjkl} mappings in vim
 * Write installation guide
+* Git fugitive `:Gvdiffsplit!` to handle conflicts (three way diff)
+* :set filetype=html
