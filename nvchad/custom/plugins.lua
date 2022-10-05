@@ -34,6 +34,9 @@ return  {
     run = "make",
   },
 
+  ["nvim-telescope/telescope-file-browser.nvim"] = {
+  },
+
   ["phpactor/phpactor"] = {
     run = "composer install --no-dev -o",
   },
@@ -78,9 +81,15 @@ return  {
       dashboard.custom_center = {
         {
           icon ="  ",
-          shortcut = "<leader>ff",
+          shortcut = "<leader> ",
           desc = "find files      ",
           action = "Telescope find_files",
+        },
+        {
+          icon ="  ",
+          shortcut = "<leader>ff",
+          desc = "find files      ",
+          action = "Telescope file_browser",
         },
         {
           icon ="  ",

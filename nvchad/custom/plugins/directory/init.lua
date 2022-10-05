@@ -9,6 +9,11 @@ local function root_directory()
   return toplevel:sub(0, -2)
 end
 
+local function buffer_directory()
+  return vim.fn.expand("%:p:h")
+end
+
 return {
   root_dir = root_directory,
+  buffer_dir = buffer_directory,
 }

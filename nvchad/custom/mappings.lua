@@ -71,6 +71,15 @@ M.telescope = {
   n = {
     ["<leader>."] = { ":Telescope live_grep<CR>", "  find in files" },
     ["<leader> "] = { ":Telescope find_files<CR>", "  find files" },
+    ["<leader>ff"] = {
+      function()
+        vim.cmd(string.format(
+          "Telescope file_browser hidden=true grouped=true cwd_to_path=true path=%s",
+          require("custom.plugins.directory").buffer_dir()
+        ))
+      end,
+      "file browser",
+    },
     ["<leader>gc"] = { ":Telescope git_commits<CR>", "  find git commits" },
     ["<leader>bb"] = { ":Telescope buffers<CR>", "  find buffers" },
     ["<leader>gl"] = { ":Telescope git_bcommits<CR>", "  find git branch commits" },

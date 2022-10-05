@@ -78,6 +78,7 @@ M.telescope = {
     "themes",
     "terms",
     "fzf",
+    "file_browser",
   },
 }
 
