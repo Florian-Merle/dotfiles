@@ -122,7 +122,8 @@ M.git = {
       end,
       "preview hunk",
     },
-    ["<leader>g."] = { ":Gvdiffsplit!<CR>", 'three way diff'}
+    ["<leader>g."] = { ":Gvdiffsplit!<CR>", 'three way diff'},
+    ["<leader>gb"] = { ":Git blame --date=format:'%Y-%m-%d'<CR>", 'blame'},
   },
 }
 
