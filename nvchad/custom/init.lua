@@ -3,7 +3,7 @@ local augroup = vim.api.nvim_create_augroup
 
 -- File extension specific tabbing
 autocmd("Filetype", {
-   pattern = "php",
+   pattern = {"php", "yaml", "twig", "html"},
    callback = function()
       vim.opt_local.expandtab = true
       vim.opt_local.tabstop = 4
