@@ -51,4 +51,62 @@ return  {
       })
     end,
   },
+
+  ["glepnir/dashboard-nvim"] = {
+    config = function ()
+      local dashboard = require("dashboard")
+      dashboard.custom_header = {
+        "                                                     ",
+        "  ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ",
+        "  ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║ ",
+        "  ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║ ",
+        "  ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║ ",
+        "  ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ",
+        "  ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ",
+        "                                                     ",
+      }
+      dashboard.header_pad = 20;
+      dashboard.footer_pad = 10;
+
+      dashboard.custom_center = {
+        {
+          icon ="  ",
+          shortcut = "<leader>ff",
+          desc = "find files      ",
+          action = "Telescope find_files",
+        },
+        {
+          icon ="  ",
+          shortcut = "<leader>qq",
+          desc = "quit            ",
+          action = "xa!",
+        },
+
+      }
+
+      dashboard.custom_footer = {
+        require("custom.plugins.directory").root_dir()
+      }
+    end
+  },
+
+  ["lukas-reineke/indent-blankline.nvim"] = {
+    override_options = {
+      filetype_exclude = {
+        "help",
+        "terminal",
+        "alpha",
+        "packer",
+        "lspinfo",
+        "TelescopePrompt",
+        "TelescopeResults",
+        "mason",
+        "dashboard",
+        "",
+      },
+    },
+  },
+
+  ["famiu/bufdelete.nvim"] = {
+  },
 }

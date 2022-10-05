@@ -1,20 +1,26 @@
 local M = {}
 
-M.generals = {
+M.general = {
   n = {
     ["<leader>qq"] = { ":xa!<CR>", "quit nvim" },
     ["<leader>fs"] = { ":w<CR>", "save file" },
+    ["<leader>x"] = {
+      function()
+        vim.cmd("Bdelete")
+      end,
+      "close buffer",
+    },
     ["<leader>X"] = {
       function()
         require('custom.plugins.utils').close_all_bufs_except_current()
       end,
-      " close buffers except current one",
+      "close buffers except current one",
     },
     ["<leader>W"] = {
       function()
         require('custom.plugins.utils').close_all_bufs()
       end,
-      " close buffers",
+      "close buffers",
     },
   }
 }
