@@ -82,25 +82,25 @@ return  {
         {
           icon ="  ",
           shortcut = "<leader> ",
-          desc = "find files      ",
+          desc = "find files            ",
           action = "Telescope find_files",
         },
         {
-          icon ="  ",
+          icon ="פּ  ",
           shortcut = "<leader>ff",
-          desc = "find files      ",
-          action = "Telescope file_browser",
+          desc = "open file browser     ",
+          action = "Telescope file_browser hidden=true",
         },
         {
-          icon ="  ",
+          icon ="  ",
           shortcut = "<leader>.",
-          desc = "find in files   ",
+          desc = "find in files         ",
           action = "Telescope live_grep",
         },
         {
           icon ="  ",
           shortcut = "<leader>qq",
-          desc = "quit            ",
+          desc = "quit                  ",
           action = "xa!",
         },
 
