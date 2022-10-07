@@ -150,7 +150,12 @@ M.git = {
       "preview hunk",
     },
     ["<leader>g."] = { ":Gvdiffsplit!<CR>", 'three way diff'},
-    ["<leader>gb"] = { ":Git blame --date=format:'%Y-%m-%d'<CR>", 'blame'},
+    ["<leader>gb"] = {
+      function()
+        require('custom.plugins.git').toggle_blame()
+      end,
+      "blame toggle",
+    },
   },
 }
 
