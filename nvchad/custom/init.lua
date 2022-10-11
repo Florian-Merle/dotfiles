@@ -41,7 +41,7 @@ vim.opt.scrolloff = 15
 
 -- Open dashboard when every buffers are closed
 autocmd("User", {
-  pattern = "BDeletePost",
+  pattern = "BDeletePost*",
   callback = function(event)
     local fallback_name = vim.api.nvim_buf_get_name(event.buf)
     local fallback_ft = vim.api.nvim_buf_get_option(event.buf, "filetype")
