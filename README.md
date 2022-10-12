@@ -66,6 +66,7 @@ Global configuration
 
 ```sh
 ln -s ~/dotfiles/regolith2/Xresources ~/.config/regolith2/Xresources
+ln -s ~/dotfiles/regolith2/i3xrocks/conf.d ~/.config/regolith2/i3xrocks/
 ```
 
 Status bar configuration
