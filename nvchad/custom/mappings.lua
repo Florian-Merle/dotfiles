@@ -204,4 +204,15 @@ M.nvterm = {
   },
 }
 
+M.markdown = {
+  n = {
+    ["<leader>mp"] = {
+      function()
+        vim.cmd('MarkdownPreviewToggle')
+      end,
+      "toggle markdown preview",
+    },
+  },
+}
+
 return M
