@@ -89,7 +89,7 @@ return  {
           icon ="פּ  ",
           shortcut = "<leader>ff",
           desc = "open file browser     ",
-          action = "Telescope file_browser hidden=true",
+          action = "Telescope file_browser hidden=true grouped=true",
         },
         {
           icon ="  ",
