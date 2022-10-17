@@ -10,7 +10,7 @@ local function toggle_blame()
   end
 
   if "fugitiveblame" == vim.bo.filetype then
-    vim.cmd("Bdelete")
+    vim.cmd("q")
   else
     vim.cmd("Git blame --date=format:'%Y-%m-%d'")
   end
