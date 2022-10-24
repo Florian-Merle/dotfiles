@@ -138,5 +138,9 @@ return  {
     run = function()
       vim.fn["mkdp#util#install"]()
     end,
-  }
+  },
+
+  ["tpope/vim-abolish"] = {
+    cmd = {"S", "Subvert"},
+  },
 }
