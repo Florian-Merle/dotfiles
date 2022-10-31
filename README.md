@@ -127,10 +127,8 @@ Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wave
 
 # Todo
 
-* Add a spell checker
 * Add git stuff in nvim
 * Improve zsh conf
-* Add vim config
 * Fix Alt+{hjkl} mappings in vim
 * Write installation guide
 * :set filetype=html
