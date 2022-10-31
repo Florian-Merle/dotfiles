@@ -127,3 +127,5 @@ alias git="echo -n \"💩💩💩💩💩💩💩💩💩💩💩💩💩💩�
 # alias git="echo -n \"Pelo utilise g à la place [y/N] \" && read ans && [ $${ans:-N} = y ] && /usr/bin/git"
 
 alias nv=nvim
+
+alias dot="cd ~/dotfiles/"
