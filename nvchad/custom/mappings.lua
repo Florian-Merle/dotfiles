@@ -149,7 +149,6 @@ M.git = {
       end,
       "preview hunk",
     },
-    ["<leader>g."] = { ":Gvdiffsplit!<CR>", 'three way diff'},
     ["<leader>gb"] = {
       function()
         require('custom.plugins.git').toggle_blame()
