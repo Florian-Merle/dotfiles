@@ -30,7 +30,7 @@ cd /usr/local/bin
 ln -s ~/.local/share/phpactor/bin/phpactor phpactor
 
 # phpactor configuration
-ln -s ~/dotfiles/phpactor.json  ~/.config/phpactor/phpactor.json
+ln -sf ~/dotfiles/phpactor ~/.config/phpactor
 ```
 
 ## fzf
