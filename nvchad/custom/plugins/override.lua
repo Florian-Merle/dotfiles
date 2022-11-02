@@ -71,6 +71,26 @@ M.telescope = {
     buffers = {
       -- sort_mru = true,
       ignore_current_buffer = true,
+      mappings = {
+        i = {
+          ["<C-x>"] = require("custom.plugins.telescope.actions").delete_buffer
+        },
+        n = {
+          ["<C-x>"] = require("custom.plugins.telescope.actions").delete_buffer
+        },
+      },
+    },
+  },
+
+  extensions = {
+    file_browser = {
+      hijack_netrw = true,
+
+      mappings = {
+        n = {
+          ["."] = require("custom.plugins.telescope.actions").live_grep,
+        },
+      },
     },
   },
 
