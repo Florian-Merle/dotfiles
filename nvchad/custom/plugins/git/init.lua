@@ -1,3 +1,10 @@
+local function compare()
+  vim.ui.input({ prompt = 'Compare with (master): ' }, function(input)
+    local branch = input or "master"
+    vim.cmd("Gvsplit " .. branch .. ":%")
+  end)
+end
+
 local function toggle_blame()
   local config = {
     excluded_buftypes = {
@@ -17,5 +24,6 @@ local function toggle_blame()
 end
 
 return {
+  compare = compare,
   toggle_blame = toggle_blame,
 }

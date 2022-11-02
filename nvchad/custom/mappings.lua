@@ -80,7 +80,6 @@ M.telescope = {
       end,
       "file browser",
     },
-    ["<leader>gc"] = { ":Telescope git_commits<CR>", "  find git commits" },
     ["<leader>bb"] = { ":Telescope buffers<CR>", "  find buffers" },
     ["<leader>gl"] = { ":Telescope git_bcommits<CR>", "  find git branch commits" },
     ["gr"] = { ":Telescope lsp_references<CR>", "  find references" },
@@ -154,6 +153,12 @@ M.git = {
         require('custom.plugins.git').toggle_blame()
       end,
       "blame toggle",
+    },
+    ["<leader>gc"] = {
+      function()
+        require("custom.plugins.git").compare()
+      end,
+      "compare with another branch",
     },
   },
 }
