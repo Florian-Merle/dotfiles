@@ -208,6 +208,17 @@ M.nvterm = {
   },
 }
 
+M.directory = {
+  n = {
+    ["<leader>oo"] = {
+      function()
+        require("custom.plugins.directory").cwd_root()
+      end,
+      "set current directory to root",
+    },
+  },
+}
+
 M.markdown = {
   n = {
     ["<leader>mp"] = {
