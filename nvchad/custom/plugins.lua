@@ -113,22 +113,22 @@ return  {
   },
 
   ["lukas-reineke/indent-blankline.nvim"] = {
-  config = function()
-    require("indent_blankline").setup {
-      filetype_exclude = {
-        "help",
-        "terminal",
-        "alpha",
-        "packer",
-        "lspinfo",
-        "TelescopePrompt",
-        "TelescopeResults",
-        "mason",
-        "dashboard",
-        "",
-      },
-    }
-  end
+    config = function()
+      require("indent_blankline").setup {
+        filetype_exclude = {
+          "help",
+          "terminal",
+          "alpha",
+          "packer",
+          "lspinfo",
+          "TelescopePrompt",
+          "TelescopeResults",
+          "mason",
+          "dashboard",
+          "",
+        },
+      }
+    end
   },
 
   ["famiu/bufdelete.nvim"] = {
