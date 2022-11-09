@@ -38,6 +38,7 @@ autocmd('TextYankPost', {
 
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 15
+vim.g.argwrap_tail_comma = 1
 
 -- Open dashboard when every buffers are closed
 autocmd("User", {

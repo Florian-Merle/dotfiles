@@ -149,4 +149,7 @@ return  {
 
   ["nvim-treesitter/nvim-treesitter-textobjects"] = {
   },
+
+  ["FooSoft/vim-argwrap"] = {
+  },
 }

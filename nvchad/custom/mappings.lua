@@ -230,4 +230,10 @@ M.markdown = {
   },
 }
 
+M.argwrap = {
+  n = {
+    ["<leader>j"] = { "<cmd>ArgWrap<cr>", "Wrap Args" },
+  },
+}
+
 return M
