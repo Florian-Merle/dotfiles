@@ -61,6 +61,7 @@ M.treesitter = {
         elseif qs == '@conditional.outer' then return false
         elseif qs == '@loop.inner' then return false
         elseif qs == '@loop.outer' then return false
+        elseif qs == '@statement.outer' then return false
         end
 
         return true
