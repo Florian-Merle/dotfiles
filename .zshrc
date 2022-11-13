@@ -129,3 +129,4 @@ alias git="echo -n \"💩💩💩💩💩💩💩💩💩💩💩💩💩💩�
 alias nv=nvim
 
 alias dot="cd ~/dotfiles/"
+alias da="cd ~/Documents/data/"
