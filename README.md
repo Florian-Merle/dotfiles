@@ -131,6 +131,14 @@ Credit to [@zanbaldwin](https://github.com/zanbaldwin/dotfiles/blob/main/README.
 
 Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
 
+# Misc
+
+Use key notation to know what a key does.
+
+```
+:help key-notation
+```
+
 # Todo
 
 * Add git stuff in nvim
