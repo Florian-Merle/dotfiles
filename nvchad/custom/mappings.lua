@@ -93,6 +93,7 @@ M.tree = {
   },
 }
 
+-- see https://github.com/dantleech/dotfiles/blob/master/.config/nvim/phpactor.vim#L15
 M.phpactor = {
   n = {
     ["<leader>cp"] = {

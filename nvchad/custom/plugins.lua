@@ -43,6 +43,7 @@ return  {
   ["nvim-telescope/telescope-file-browser.nvim"] = {
   },
 
+  -- ["~/.local/share/phpactor"] = {
   ["phpactor/phpactor"] = {
     run = "composer install --no-dev -o",
   },

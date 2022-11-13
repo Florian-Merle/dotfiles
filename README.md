@@ -33,6 +33,12 @@ ln -s ~/.local/share/phpactor/bin/phpactor phpactor
 ln -sf ~/dotfiles/phpactor ~/.config/phpactor
 ```
 
+Lsp logs
+
+```sh
+tail /home/florian/.local/state/nvim/lsp.log
+```
+
 ## fzf
 
 Used to search files more efficiently in Neovim.
