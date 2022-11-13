@@ -101,7 +101,26 @@ M.phpactor = {
       end,
       "open phpactor context menu",
     },
+    ["<leader>cc"] = {
+      function()
+        vim.cmd("PhpactorCopyClassName")
+      end,
+      "copy class FQN clipboard",
+    },
   },
+}
+
+M.lspconfig = {
+  v = {
+    -- trigers a deprecated notice the first time it's used
+    -- todo find a better way to do this
+    ["<leader>ca"] = {
+      function()
+        vim.lsp.buf.range_code_action()
+      end,
+      "lsp range_code_action",
+    },
+  }
 }
 
 M.git = {
