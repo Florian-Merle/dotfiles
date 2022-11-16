@@ -35,6 +35,9 @@
   stc = stash clear
   sc = show --color --pretty=format:%b
   fa = fetch --all
+  rb = for-each-ref --sort=committerdate refs/heads/ refs/remotes/ --format='%(refname:short)'
+  cof = "!git rb | fzf-tmux -p90%,80% --layout=reverse --no-info --print0 --preview 'git log --oneline --color=always --decorate {1}' | xargs -0 -t git checkout"
+  pc = "!git logo --decorate --color=always | fzf-tmux --ansi -p90%,80% --layout=reverse --no-info  --preview 'git show --color=always {1}' --bind=ctrl-u:preview-page-up,ctrl-d:preview-page-down | awk '{ print $1 }' | xsel --input --clipboard"
 [help]
   autocorrect = 40
 [user]
