@@ -1,0 +1,8 @@
+## Modify // Sound Settings // <> s ##
+bindsym $mod+s exec --no-startup-id regolith-control-center --class=floating_window sound
+
+## Calculator // <> u ##
+bindsym $mod+u exec --no-startup-id gnome-calculator --class=floating_window
+
+## Emoji Picker // <> m ##
+bindsym $mod+m exec --no-startup-id gnome-terminal --geometry=35x15 --class=floating_window -- ~/dotfiles/scripts/emoji-picker.sh
