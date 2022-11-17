@@ -19,6 +19,16 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.oh-my-zsh/themes/agnoster-custom.zsh-theme ~/.oh-my-zsh/themes/agnoster-custom.zsh-theme
 ```
 
+## Tools
+
+```sh
+# Used to search files more efficiently in Neovim and do so fuzzy finding magic 🪄
+sudo apt-get install fzf
+
+# used to forward stuff in the clipboard
+sudo apt-get install xsel
+```
+
 ## Phpactor
 
 ```sh
@@ -49,14 +59,6 @@ Just like phpactor, psalm can be used as a lsp.
 ```sh
 composer global require vimeo/psalm:5.0.0-beta1
 sudo ln -s ~/.config/composer/vendor/bin/phpstan.phar  /usr/local/bin/phpstan
-```
-
-## fzf
-
-Used to search files more efficiently in Neovim.
-
-```sh
-sudo apt-get install fzf
 ```
 
 ## Tmux Gruvbox theme
@@ -106,7 +108,6 @@ gsettings set org.gnome.nm-applet disable-disconnected-notifications "true"
 gsettings set org.gnome.nm-applet disable-connected-notifications "true"
 ```
 
-
 # Installation on an X1 carbon
 
 ## Remap Print Screen with Context menu
@@ -146,16 +147,14 @@ Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wave
 
 # Misc
 
-Use key notation to know what a key does.
-
 ```
+# Use key notation to know what does a key do in vim
 :help key-notation
 ```
-
 # Todo
 
-* Add git stuff in nvim
 * Improve zsh conf
 * Fix Alt+{hjkl} mappings in vim
-* Write installation guide
-* :set filetype=html
+* Make gx work for opening url in browser
+* test https://github.com/sindrets/diffview.nvim
+* Try to use telescope with lsp https://github.com/gbprod/gbvim/blob/main/lua/usr/lsp.lua#L32
