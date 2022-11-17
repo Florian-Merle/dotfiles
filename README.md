@@ -31,6 +31,10 @@ ln -s ~/.local/share/phpactor/bin/phpactor phpactor
 
 # phpactor configuration
 ln -sf ~/dotfiles/phpactor ~/.config/phpactor
+
+# phpstan integrates in phpactor
+composer global require phpstan/phpstan
+sudo ln -s ~/.config/composer/vendor/bin/phpstan.phar  /usr/local/bin/phpstan
 ```
 
 Lsp logs
