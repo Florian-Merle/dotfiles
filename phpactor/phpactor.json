@@ -7,4 +7,5 @@
   },
   "symfony.enabled": true,
   "language_server_phpstan.enabled": true,
-  "language_server_phpstan.bin": "/usr/local/bin/phpstan"}
+  "language_server_phpstan.bin": "/usr/local/bin/phpstan"
+}

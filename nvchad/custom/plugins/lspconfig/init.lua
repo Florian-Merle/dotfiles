@@ -4,6 +4,7 @@ local lspconfig = require "lspconfig"
 
 local servers = {
   "phpactor",
+  "psalm",
 }
 
 for _, lsp in ipairs(servers) do

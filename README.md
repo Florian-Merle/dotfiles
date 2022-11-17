@@ -41,6 +41,14 @@ Lsp logs
 
 ```sh
 tail /home/florian/.local/state/nvim/lsp.log
+
+## Psalm
+
+Just like phpactor, psalm can be used as a lsp.
+
+```sh
+composer global require vimeo/psalm:5.0.0-beta1
+sudo ln -s ~/.config/composer/vendor/bin/phpstan.phar  /usr/local/bin/phpstan
 ```
 
 ## fzf
