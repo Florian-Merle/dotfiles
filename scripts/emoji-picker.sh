@@ -7,7 +7,7 @@ EMOJI_FILE=$(dirname $0)/emojis
 
 EMOJI=$(cat $EMOJI_FILE | fzf --layout=reverse --no-info --header='Emoji Picker 🚀
 
-' --header-first  --margin=1,2,1,2 | awk '{ print $1 }')
+' --header-first  --margin=1,2,1,2 --cycle | awk '{ print $1 }')
 
 if [ -z "$EMOJI" ]
 then
