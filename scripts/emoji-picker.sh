@@ -14,6 +14,6 @@ then
   exit 0
 fi
 
-echo $EMOJI | xsel --input --clipboard
+echo $EMOJI | tr -d \\n | xsel --input --clipboard
 
 exit 0
