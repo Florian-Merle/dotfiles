@@ -1,6 +1,9 @@
 ## Modify // Sound Settings // <> s ##
 bindsym $mod+s exec --no-startup-id regolith-control-center --class=floating_window sound
 
+## Modify // Power Settings // <> p ##
+bindsym $mod+p exec --no-startup-id regolith-control-center --class=floating_window power
+
 ## Calculator // <> u ##
 bindsym $mod+u exec --no-startup-id gnome-calculator --class=floating_window
 
