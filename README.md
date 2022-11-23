@@ -13,20 +13,54 @@ sudo apt install zsh
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-sudo apt install bat
-
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.oh-my-zsh/themes/agnoster-custom.zsh-theme ~/.oh-my-zsh/themes/agnoster-custom.zsh-theme
 ```
 
 ## Tools
 
-```sh
-# Used to search files more efficiently in Neovim and do so fuzzy finding magic 🪄
-sudo apt-get install fzf
+### fzf
 
-# used to forward stuff in the clipboard
+Used to search files more efficiently in Neovim and do so fuzzy finding magic 🪄
+
+```sh
+sudo apt-get install fzf
+```
+
+### xsel
+
+Used to forward stuff in the clipboard
+
+```sh
 sudo apt-get install xsel
+```
+
+### bat
+
+Basically cat with syntax sighlighting.
+
+```sh
+sudo apt install bat
+```
+
+### delta
+
+Used to have fancy git diffs.
+
+In order to always have syntax highlight for PHP (even chunks without an opening php tag `<?php`) [the following workaround](https://github.com/dandavison/delta/issues/162#issuecomment-625952288) should be applied.
+
+Also, make sure both bat and delta versions are compatible (mainly because from what I understand, delta reads bat cache, but bat cache structure can evolve). I found that bat v0.19.0 (the version I currently have installed) works with delta v0.12.1.
+
+To sum up, you can download delta from [its repository](https://github.com/dandavison/delta), then build bat cache and finally create a symlink for the `~/.config/bat/syntaxes/PHP.sublime-syntax` file.
+
+```sh
+wget https://github.com/dandavison/delta/releases/download/0.12.1/git-delta_0.12.1_amd64.deb
+dpkg -i git-delta_0.12.1_amd64.deb
+rm git-delta_0.12.1_amd64.deb
+
+bat cache --build
+
+ln -s ~/dotfiles/bat/syntaxes/PHP.sublime-syntax ~/.config/bat/syntaxes/PHP.sublime-syntax
 ```
 
 ## Phpactor

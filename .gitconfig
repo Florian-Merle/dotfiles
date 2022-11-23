@@ -46,3 +46,16 @@
 [core]
   editor = vim
   excludesfile = ~/.gitignore
+  pager = delta --paging=always
+[interactive]
+  diffFilter = delta --color-only
+[merge]
+  conflictstyle = diff3
+[diff]
+  colorMoved = default
+[delta]
+  navigate = true
+  features = unobtrusive-line-numbers
+  hunk-header-style = omit
+[delta "unobtrusive-line-numbers"]
+  line-numbers = true
