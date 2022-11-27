@@ -188,7 +188,8 @@ I currenlty have the following macros.
 
 # Credits
 
-Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
+* Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
+* New wallpaper misty_mountains taken from [here](https://gitlab.com/dochi77/arch-rices/-/blob/main/nord/wallpapers/misty_mountains.jpg).
 
 # Misc
 
