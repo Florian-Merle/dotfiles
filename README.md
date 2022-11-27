@@ -196,6 +196,28 @@ Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wave
 # Use key notation to know what does a key do in vim
 :help key-notation
 ```
+
+# Spotify
+
+## Theming
+
+In order to theme Spotify, I used Spicetify. For more info, see the [following guide](https://www.omgubuntu.co.uk/2022/01/spicetify-change-spotify-app-theme).
+Use [the advanced installation guide](https://spicetify.app/docs/advanced-usage/installation/#note-for-linux-users) in order to setup the correct permissions on Spotify files.
+
+```bash
+git clone https://github.com/morpheusthewhite/spicetify-themes.git
+cd spicetify-themes
+cp -r * ~/.config/spicetify/Themes
+
+spicetify config current_theme "Ziro"
+spicetify config color_scheme "green-light"
+spicetify apply
+```
+
+## Notifications
+
+In order to get rid of notifications, [see the following guide](https://askubuntu.com/a/472329).
+
 # Todo
 
 * Improve zsh conf

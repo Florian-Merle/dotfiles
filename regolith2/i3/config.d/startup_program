@@ -1,3 +1,6 @@
+exec --no-startup-id spotify
+for_window [class="Spotify"] move to workspace $ws8
+
 exec --no-startup-id discord
 for_window [class="discord"] move to workspace $ws9
 
