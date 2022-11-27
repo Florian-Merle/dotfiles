@@ -1,15 +1,15 @@
 # https://regolith-desktop.com/docs/howtos/workspace-on-output/
 
-set_from_resource $i3-wm.screen.left  i3-wm.screen.left  "eDP-1"
-set_from_resource $i3-wm.screen.right i3-wm.screen.right "DP-3"
+set_from_resource $i3-wm.screen.laptop  i3-wm.screen.laptop  "eDP-1"
+set_from_resource $i3-wm.screen.external i3-wm.screen.external "DP-3" "HDMI-1"
 
-workspace 1  output $i3-wm.screen.right
-workspace 2  output $i3-wm.screen.right
-workspace 3  output $i3-wm.screen.right
-workspace 4  output $i3-wm.screen.right
-workspace 5  output $i3-wm.screen.right
-workspace 6  output $i3-wm.screen.right
-workspace 7  output $i3-wm.screen.left
-workspace 8  output $i3-wm.screen.left
-workspace 9  output $i3-wm.screen.left
-workspace 10 output $i3-wm.screen.left
+workspace 1  output $i3-wm.screen.external
+workspace 2  output $i3-wm.screen.external
+workspace 3  output $i3-wm.screen.external
+workspace 4  output $i3-wm.screen.external
+workspace 5  output $i3-wm.screen.external
+workspace 6  output $i3-wm.screen.external
+workspace 7  output $i3-wm.screen.laptop
+workspace 8  output $i3-wm.screen.laptop
+workspace 9  output $i3-wm.screen.laptop
+workspace 10 output $i3-wm.screen.laptop
