@@ -175,6 +175,17 @@ Alternatively, you can use the `dconf-editor` GUI once DConf tools are installed
 
 Credit to [@zanbaldwin](https://github.com/zanbaldwin/dotfiles/blob/main/README.md#swapping-caps-lock-with-escape)
 
+## External keyboard
+
+My keyboard is a Ducky Channel one 2 tkl (DKON1887), see [the manual](https://mechanicalkeyboards.com/manuals/Ducky_One2_FullTKL_manual.pdf) and [this guide](https://gist.github.com/schmich/47819eac9cafed14d3bfe2195ea222be) to define them.
+
+I currenlty have the following macros.
+
+| Macro | Action |
+| - | - |
+| `Fn + ^` | Volume down |
+| `Fn + $` | Volume up |
+
 # Credits
 
 Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
