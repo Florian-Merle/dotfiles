@@ -220,5 +220,7 @@ In order to get rid of notifications, [see the following guide](https://askubunt
 * Improve zsh conf
 * Fix Alt+{hjkl} mappings in vim
 * Make gx work for opening url in browser
-* test https://github.com/sindrets/diffview.nvim
-* Try to use telescope with lsp https://github.com/gbprod/gbvim/blob/main/lua/usr/lsp.lua#L32
+* https://github.com/Orange-OpenSource/hurl
+* Try https://github.com/rest-nvim/rest.nvim
+* Try https://orgmode.org/guide/index.html
+* Change win+maj+n to make it floating
