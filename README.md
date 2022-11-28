@@ -75,10 +75,6 @@ ln -s ~/.local/share/phpactor/bin/phpactor phpactor
 
 # phpactor configuration
 ln -sf ~/dotfiles/phpactor ~/.config/phpactor
-
-# phpstan integrates in phpactor
-composer global require phpstan/phpstan
-sudo ln -s ~/.config/composer/vendor/bin/phpstan.phar  /usr/local/bin/phpstan
 ```
 
 Lsp logs
@@ -92,7 +88,7 @@ Just like phpactor, psalm can be used as a lsp.
 
 ```sh
 composer global require vimeo/psalm:5.0.0-beta1
-sudo ln -s ~/.config/composer/vendor/bin/phpstan.phar  /usr/local/bin/phpstan
+sudo ln -s ~/.config/composer/vendor/bin/psalm  /usr/local/bin/psalm
 ```
 
 ## Tmux Gruvbox theme
