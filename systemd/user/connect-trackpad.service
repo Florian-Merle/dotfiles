@@ -1,0 +1,8 @@
+[Unit]
+Description=Change Apple Magic Trackpad 2 middle click trigger
+
+[Service]
+ExecStart=/home/florian/dotfiles/scripts/connect-trackpad.sh
+
+[Install]
+WantedBy=default.target

@@ -220,6 +220,75 @@ spicetify apply
 
 In order to get rid of notifications, [see the following guide](https://askubuntu.com/a/472329).
 
+# Trackpad 
+
+## Magic Trackpad
+
+When at home, I like to use an Apple Magic Trackpad, but unlike the laptop Trackpad, I prefer the middle click to be triggered with two finger instead of being aera based.
+
+### xinput
+
+In order to achieve this, the following command can be run whenever the trackpad is plugged in.
+`XX` being the id of the trackpad (this can be found with `xinput list`), `YYY` being the number of the property and `Z, Z, Z` being the value for the property (this can, be found with `xinpuit list-props XX`).
+
+```sh
+xinput set-prop XX YYY Z, Z, Z
+xinput set-prop 23 345 0, 1
+```
+
+### Running the script automatically
+
+To automatically run the script when the trackpad is connected, I used udev with systemd. Systemd ensure the script is run by the user (not root).
+
+#### systemd
+
+```sh
+# install
+mkdir -p ~/.config/systemd/user
+ln -s ~/dotfiles/systemd/user/connect-trackpad.service ~/.config/systemd/user/connect-trackpad.service
+systemctl --user enable connect-trackpad.service
+systemctl --user daemon-reload
+
+# testing
+systemctl --user start connect-trackpad.service
+
+# when changing the service, you can disable it and re-enable it to apply changes
+systemctl --user disable connect-trackpad.service
+systemctl --user enable connect-trackpad.service
+
+# monitor the service
+journalctl --user -fu connect-trackpad
+```
+#### udev
+
+Udev works with rules. 
+
+```sh
+# install
+sudo ln -s ~/dotfiles/scripts/90-connect-trackpad.rules /etc/udev/rules.d/90-connect-trackpad.rules
+
+sudo udevadm control --reload
+sudo udevadm trigger
+```
+
+To build the rule, use the following command to find the relevent udev event.
+
+```sh
+udevadm monitor --environment
+```
+
+Then using the `DEVPATH`, use the following command to find attributes (please note, that the path is prefixed by `/sys`). `--attribute-walk` find every attributes from the device and its parents.
+
+```sh
+udevadm info --attribute-walk --path="/sys/devices/pci0000:00/0000:00:14.0/usb3/3-10/3-10:1.0/bluetooth/hci0/hci0:256" | less
+```
+
+Finally, to build the rule, I used both the idProduct and idVendor.
+
+### Additional notes
+
+In order to use the trackpad via bluetooth, the trackpad, should be disconnect, then turned off and on again and it should be available in the list of bluetooth devices. See https://github.com/mwyborski/Linux-Magic-Trackpad-2-Driver
+
 # Todo
 
 * Improve zsh conf

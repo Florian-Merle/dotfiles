@@ -1,0 +1,3 @@
+ACTION=="add", SUBSYSTEM=="bluetooth", ATTRS{idProduct}=="0026", ATTRS{idVendor}=="8087", \
+  TAG+="systemd", \
+  ENV{SYSTEMD_USER_WANTS}+="connect-trackpad.service"

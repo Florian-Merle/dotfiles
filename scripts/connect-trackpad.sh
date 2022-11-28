@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# Let's make sure the device is ready
+sleep 1
+
 DEVICE_NAME="Apple Inc. Magic Trackpad 2"
 PROPERTY_NAME="libinput Click Method Enabled ("
 
