@@ -194,6 +194,11 @@ I currenlty have the following macros.
 :help key-notation
 ```
 
+```
+# Use to find an i3 key name see https://www.reddit.com/r/i3wm/comments/4e65g8/comment/d1xccjb/?utm_source=share&utm_medium=web2x&context=3
+xev -event keyboard
+```
+
 # Spotify
 
 ## Theming
@@ -223,3 +228,4 @@ In order to get rid of notifications, [see the following guide](https://askubunt
 * https://github.com/Orange-OpenSource/hurl
 * Try https://github.com/rest-nvim/rest.nvim
 * Try https://orgmode.org/guide/index.html
+* Learn using i3 tabs (win + t)
