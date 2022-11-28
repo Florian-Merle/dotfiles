@@ -223,4 +223,3 @@ In order to get rid of notifications, [see the following guide](https://askubunt
 * https://github.com/Orange-OpenSource/hurl
 * Try https://github.com/rest-nvim/rest.nvim
 * Try https://orgmode.org/guide/index.html
-* Change win+maj+n to make it floating

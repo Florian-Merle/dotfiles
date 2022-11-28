@@ -12,3 +12,6 @@ i3-wm.bar.trayoutput: none
 
 ## do not update default terminal theme during regolith-look regresh
 gnome.terminal.update: false
+
+## Open floating window for file explorer
+i3-wm.program.files: /usr/bin/nautilus --new-window --class=floating_window
