@@ -19,8 +19,7 @@ tmux new-session -d -s $basename
 
 # Create panes
 tmux split-window -v -p 25 'git logor'
-tmux split-window -h -p 35 'git brr'
-tmux split-window -h -p 50 '~/dotfiles/scripts/git-status-watch.sh'
+tmux split-window -h -p 25 'git brr'
 
 # Finaly, attach to the session
 tmux attach-session -d -t $basename -c $path
