@@ -110,7 +110,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias d="docker"
 alias dc="docker-compose"
-alias gti=/usr/bin/git
 alias g=/usr/bin/git
 
 # Tmux create dashboard
@@ -123,9 +122,6 @@ alias bat=batcat
 export BAT_THEME="OneHalfLight"
 
 alias xc='xclip -selection c'
-
-alias git="echo -n \"💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩\n💩                              💩\n💩 Ho pélo utilise g à la place 💩\n💩                              💩\n💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩\n\" && sleep 1 && read ans && /usr/bin/git"
-# alias git="echo -n \"Pelo utilise g à la place [y/N] \" && read ans && [ $${ans:-N} = y ] && /usr/bin/git"
 
 alias nv=nvim
 
