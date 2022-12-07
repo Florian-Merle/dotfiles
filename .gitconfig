@@ -1,8 +1,7 @@
 [alias]
   editconf = !vim ~/.gitconfig
   graph = log --all --decorate --oneline --graph
-  ; st = status --untracked-files=all
-  st = ! echo '💩 Use "^ + e" instead 💩' && sleep 2 && git status --untracked-files=all
+  st = status --untracked-files=all
   co = checkout
   cb = checkout -b
   cm = commit -m
