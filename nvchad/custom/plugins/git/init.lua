@@ -1,6 +1,6 @@
 local function compare()
-  vim.ui.input({ prompt = 'Compare with (master): ' }, function(input)
-    local branch = input or "master"
+  vim.ui.input({ prompt = 'Compare with (origin/master): ' }, function(input)
+    local branch = input or "origin/master"
     vim.cmd("Gvsplit " .. branch .. ":%")
   end)
 end
