@@ -59,11 +59,13 @@ return  {
       require("scrollbar").setup({
         handle = {
           color = '#A6A6A6',
+          hide_if_all_visible = true,
         },
         excluded_filetypes = {
           "prompt",
           "TelescopePrompt",
           "fugitiveblame",
+          "dashboard",
         },
       })
     end,
