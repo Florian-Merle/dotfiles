@@ -81,6 +81,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source "$HOME/.cargo/env"
 
 # User configuration
 

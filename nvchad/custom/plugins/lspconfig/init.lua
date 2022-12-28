@@ -23,3 +23,32 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- see https://rust-analyzer.github.io/manual.html#nvim-lsp
+lspconfig.rust_analyzer.setup{
+  on_attach=function(client)
+    -- fixme this gives an error
+    -- require'completion'.on_attach(client)
+  end,
+  capabilities = capabilities,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  settings = {
+    ["rust-analyzer"] = {
+      imports = {
+        granularity = {
+          group = "module",
+        },
+        prefix = "self",
+      },
+      cargo = {
+        buildScripts = {
+          enable = true,
+        },
+      },
+      procMacro = {
+        enable = true
+      },
+    },
+  },
+};
