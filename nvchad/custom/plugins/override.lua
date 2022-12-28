@@ -12,6 +12,7 @@ M.treesitter = {
     "org",
     "lua",
     "bash",
+    "rust",
   },
   indent = {
     enable = true

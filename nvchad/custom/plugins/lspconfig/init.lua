@@ -1,6 +1,7 @@
 local attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 local lspconfig = require "lspconfig"
+local rt = require"rust-tools"
 
 local servers = {
   "phpactor",
@@ -52,3 +53,13 @@ lspconfig.rust_analyzer.setup{
     },
   },
 };
+
+
+rt.setup({
+  server = {
+    on_attach = function(_, bufnr)
+      -- Code action groups
+      vim.keymap.set("n", "<Leader>ca", rt.code_action_group.code_action_group, { buffer = bufnr })
+    end,
+  },
+})

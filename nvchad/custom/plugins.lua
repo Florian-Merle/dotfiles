@@ -161,4 +161,7 @@ return  {
 
   ["FooSoft/vim-argwrap"] = {
   },
+
+  ["simrat39/rust-tools.nvim"] = {
+  },
 }
