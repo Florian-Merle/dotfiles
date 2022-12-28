@@ -19,7 +19,6 @@
   dc = diff --cached
   rpo = remote prune origin
   po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
-  pof = po -f
   r = rebase
   ro = rebase --onto
   ri = rebase -i
