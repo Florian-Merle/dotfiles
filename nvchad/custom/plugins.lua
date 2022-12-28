@@ -161,7 +161,4 @@ return  {
 
   ["FooSoft/vim-argwrap"] = {
   },
-
-  ["psliwka/vim-smoothie"] = {
-  },
 }
