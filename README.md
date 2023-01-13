@@ -297,4 +297,11 @@ In order to use the trackpad via bluetooth, the trackpad, should be disconnect, 
 * https://github.com/Orange-OpenSource/hurl
 * Try https://github.com/rest-nvim/rest.nvim
 * Try https://orgmode.org/guide/index.html
-* Learn using i3 tabs (win + t)
+* remove terminal plugin from nvim
+
+# i3 cheatsheet
+win + a to go to parent
+win + ^ for stacked
+win + $ for tabbed
+win + ù for horizontal
+win + * for vertical
