@@ -5,5 +5,10 @@
     "default": "default",
     "command": "command"
   },
-  "symfony.enabled": true
+  "indexer.exclude_patterns": [
+    "/var/cache/**/*",
+    "/vendor/composer/**/*"
+  ],
+  "symfony.enabled": true,
+  "language_server.diagnostic_outsource": true
 }
