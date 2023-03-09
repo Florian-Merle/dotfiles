@@ -3,7 +3,13 @@ local M = {
     DashboardHeader = {
       fg = "#52C0F7",
     },
-    DashboardCenter = {
+    DashboardDesc = {
+      fg = "#A2A2A3",
+    },
+    DashboardKey = {
+      fg = "#A2A2A3",
+    },
+    DashboardIcon = {
       fg = "#A2A2A3",
     },
     DashboardFooter = {
