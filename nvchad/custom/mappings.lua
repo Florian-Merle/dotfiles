@@ -21,7 +21,6 @@ M.disabled = {
 M.general = {
   n = {
     ["<leader>qq"] = { ":xa!<CR>", "quit nvim" },
-    ["<leader>fs"] = { ":w<CR>", "save file" },
     ["<leader>x"] = {
       function()
         vim.cmd("Bdelete")
@@ -64,7 +63,6 @@ M.windows = {
     ["<A-j>"] = { ":TmuxNavigateDown<CR>", " window bottom (tmux included)" },
     ["<A-k>"] = { ":TmuxNavigateUp<CR>", " window top (tmux included)" },
   },
-
 }
 
 M.telescope = {
@@ -83,6 +81,15 @@ M.telescope = {
     ["<leader>bb"] = { ":Telescope buffers<CR>", "  find buffers" },
     ["<leader>gl"] = { ":Telescope git_bcommits<CR>", "  find git branch commits" },
     ["gr"] = { ":Telescope lsp_references<CR>", "  find references" },
+  },
+  v = {
+    ["<leader>fs"] = {
+      function()
+        local text = require('custom.plugins.utils').get_visual_selection();
+        vim.cmd('Telescope live_grep no_ignore=true default_text=' .. text);
+      end,
+      "  find selection in files",
+    },
   },
 }
 
