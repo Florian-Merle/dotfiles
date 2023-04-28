@@ -91,13 +91,6 @@ composer global require vimeo/psalm:5.0.0-beta1
 sudo ln -s ~/.config/composer/vendor/bin/psalm  /usr/local/bin/psalm
 ```
 
-## Tmux Gruvbox theme
-
-```sh
-cd ~
-git clone git@github.com:egel/tmux-gruvbox.git
-```
-
 ## Gnome terminal profile
 
 ```sh
