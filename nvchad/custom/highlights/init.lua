@@ -1,7 +1,7 @@
 local M = {
   add = {
     DashboardHeader = {
-      fg = "#52C0F7",
+      fg = "#5f87ff",
     },
     DashboardDesc = {
       fg = "#A2A2A3",
