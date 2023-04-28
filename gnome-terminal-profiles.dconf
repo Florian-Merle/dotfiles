@@ -1,6 +1,54 @@
 [/]
-default='93390ca0-99dd-42d6-b336-ce8b88ced58c'
-list=['83c86c38-ca3a-4a09-b869-ce5106d9ce74', '93390ca0-99dd-42d6-b336-ce8b88ced58c', '8f6cd0fa-d1c2-41ee-bb39-d0b28bf812c0']
+default='2be85ea0-1608-4c16-886d-f87fca9a49e9'
+list=['83c86c38-ca3a-4a09-b869-ce5106d9ce74', '93390ca0-99dd-42d6-b336-ce8b88ced58c', '1bc46544-4887-42c5-9381-2d996f5fab4f', '2be85ea0-1608-4c16-886d-f87fca9a49e9']
+
+[:1bc46544-4887-42c5-9381-2d996f5fab4f]
+audible-bell=false
+background-color='#F9F9F9'
+background-transparency-percent=4
+bold-color='#383A42'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-background-color='#575F66'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#E65050'
+font='Hack Nerd Font Mono 20'
+foreground-color='#383A42'
+highlight-background-color='#575F66'
+highlight-colors-set=true
+highlight-foreground-color='#FAFAFA'
+palette=['rgb(0,0,0)', 'rgb(228,86,73)', 'rgb(80,161,79)', 'rgb(239,176,42)', 'rgb(64,120,242)', 'rgb(166,38,164)', 'rgb(1,132,188)', 'rgb(212,214,223)', 'rgb(136,143,154)', 'rgb(228,86,73)', 'rgb(80,161,79)', 'rgb(239,176,42)', 'rgb(64,120,242)', 'rgb(166,38,164)', 'rgb(1,132,188)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='One Light Demo'
+
+[:2be85ea0-1608-4c16-886d-f87fca9a49e9]
+audible-bell=false
+background-color='rgb(239,241,245)'
+background-transparency-percent=4
+bold-color='#4C4C4F4F6969'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-background-color='rgb(76,79,105)'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#EFEFF1F1F5F5'
+font='Hack Nerd Font Mono 12'
+foreground-color='rgb(56,58,66)'
+highlight-background-color='#575F66'
+highlight-colors-set=true
+highlight-foreground-color='#FAFAFA'
+palette=['rgb(0,0,0)', 'rgb(210,15,57)', 'rgb(64,160,43)', 'rgb(223,142,29)', 'rgb(30,102,245)', 'rgb(234,118,203)', 'rgb(23,146,153)', 'rgb(172,176,190)', 'rgb(108,111,133)', 'rgb(210,15,57)', 'rgb(64,160,43)', 'rgb(223,142,29)', 'rgb(30,102,245)', 'rgb(234,118,203)', 'rgb(23,146,153)', 'rgb(188,192,204)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Catppuccin Latte'
 
 [:83c86c38-ca3a-4a09-b869-ce5106d9ce74]
 audible-bell=false
@@ -27,30 +75,6 @@ use-theme-colors=false
 use-theme-transparency=false
 use-transparent-background=false
 visible-name='Regolith'
-
-[:8f6cd0fa-d1c2-41ee-bb39-d0b28bf812c0]
-audible-bell=false
-background-color='#F9F9F9'
-background-transparency-percent=4
-bold-color='#383A42'
-bold-color-same-as-fg=true
-bold-is-bright=false
-cursor-background-color='#575F66'
-cursor-blink-mode='off'
-cursor-colors-set=true
-cursor-foreground-color='#E65050'
-font='Hack Nerd Font Mono 12'
-foreground-color='#383A42'
-highlight-background-color='#575F66'
-highlight-colors-set=true
-highlight-foreground-color='#FAFAFA'
-palette=['#000000', '#E45649', '#50A14F', '#986801', '#4078F2', '#A626A4', '#0184BC', '#A0A1A7', '#5c6370', '#E45649', '#50A14F', '#986801', '#4078F2', '#A626A4', '#0184BC', '#ffffff']
-scrollbar-policy='never'
-use-system-font=false
-use-theme-colors=false
-use-theme-transparency=false
-use-transparent-background=false
-visible-name='One Light (Original)'
 
 [:93390ca0-99dd-42d6-b336-ce8b88ced58c]
 audible-bell=false

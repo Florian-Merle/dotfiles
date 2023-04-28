@@ -110,6 +110,8 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 
 See https://unix.stackexchange.com/a/456356
 
+Note that the color theme I use are downloaded with [Gogh](https://github.com/Gogh-Co/Gogh)
+
 ## Regolith 2 config
 
 Global configuration
