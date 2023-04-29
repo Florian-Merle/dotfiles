@@ -115,6 +115,23 @@ ln -s ~/dotfiles/regolith2/i3/config.d ~/.config/regolith2/i3/
 ln -s ~/dotfiles/regolith2/i3xrocks/conf.d ~/.config/regolith2/i3xrocks/
 ```
 
+### Catppuccin
+
+Clone https://github.com/catppuccin/regolith
+
+Then
+
+```sh
+# Install the regolith look
+./install.sh
+sudo python3 /usr/share/regolith-look/catppuccin/theme-switcher.py latte sky
+
+# Install GTK flavored catppuccin
+cd gtk && ./install.sh
+```
+
+Then using Gnome Tweaks, you can set the theme to Catppuccin Latte.
+
 Status bar configuration
 
 ```sh

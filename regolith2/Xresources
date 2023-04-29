@@ -1,4 +1,4 @@
-regolith.look.path: /usr/share/regolith-look/ayu
+regolith.look.path: /usr/share/regolith-look/catppuccin
 
 regolith.wallpaper.file: ~/dotfiles/images/foggy_forest.jpg
 regolith.wallpaper.options: zoom
