@@ -155,4 +155,10 @@ M.telescope = {
   },
 }
 
+M.ui = {
+  statusline = {
+    separator_style = "round",
+  },
+}
+
 return M
