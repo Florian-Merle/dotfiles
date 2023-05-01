@@ -310,6 +310,7 @@ In order to use the trackpad via bluetooth, the trackpad, should be disconnect, 
 * Try https://github.com/rest-nvim/rest.nvim
 * Try https://orgmode.org/guide/index.html
 * remove terminal plugin from nvim
+* play with a new compositor https://www.reddit.com/r/unixporn/comments/s5i6i3/oc_an_xorg_compositor_forked_from_xcompmgr_with/
 
 # i3 cheatsheet
 win + a to go to parent
