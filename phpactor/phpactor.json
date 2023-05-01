@@ -9,6 +9,5 @@
     "/var/cache/**/*",
     "/vendor/composer/**/*"
   ],
-  "symfony.enabled": true,
-  "language_server.diagnostic_outsource": true
+  "symfony.enabled": true
 }
