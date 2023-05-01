@@ -18,8 +18,8 @@ fi
 tmux new-session -d -s $basename 
 
 # Create panes
-tmux split-window -v -p 25 'git logor'
-tmux split-window -h -p 25 'git brr'
+tmux split-window -v -p 20 'git logor'
+tmux split-window -h -p 20 'git brr'
 
-# Finaly, attach to the session
-tmux attach-session -d -t $basename -c $path
+# Finaly, attach to the session in the 1st pane in the 1st window
+tmux attach-session -d -t $basename:1.1 -c $path
