@@ -11,6 +11,8 @@
   br = branch
   brr = ! watch -t -n 0.2 --color "git branch --color"
   b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+  l = log
+  lo = logo
   logo = log --oneline
   logor = ! watch -t -n 0.2 --color "git --no-pager log --oneline --color -20 --decorate"
   lm = ! git logo -n $(git rev-list origin/master..HEAD --count)
