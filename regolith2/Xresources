@@ -4,8 +4,8 @@ regolith.look.path: /usr/share/regolith-look/catppuccin
 i3-wm.bar.workspace.focused.border.color: #4c4f69
 i3-wm.bar.workspace.focused.background.color: #4c4f69
 i3-wm.bar.workspace.focused.text.color: #dce0e8
-i3-wm.bar.workspace.active.border.color: #ccd0da
-i3-wm.bar.workspace.active.background.color: #ccd0da
+i3-wm.bar.workspace.active.border.color: #bcc0cc
+i3-wm.bar.workspace.active.background.color: #bcc0cc
 i3-wm.bar.workspace.active.text.color: #4c4f69
 i3-wm.bar.workspace.inactive.border.color: #ccd0da
 i3-wm.bar.workspace.inactive.background.color: #ccd0da
