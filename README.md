@@ -198,6 +198,7 @@ I currenlty have the following macros.
 
 * Thanks to [@dizzyup](https://hector.me/) for his [Wavēy](https://hector.me/wavey) wallpaper collection.
 * New wallpaper misty_mountains taken from [here](https://gitlab.com/dochi77/arch-rices/-/blob/main/nord/wallpapers/misty_mountains.jpg).
+* https://unsplash.com/fr/photos/QY5U8JD3-tk with tint filter applied (#1e66f5) using https://www12.lunapic.com/editor/
 
 # Misc
 

@@ -24,9 +24,9 @@ i3-wm.bar.font: Hack Nerd Font Mono 12
 i3-wm.font: Hack Nerd Font Mono 12
 i3xrocks.value.font: Hack Nerd Font Mono 12
 
-regolith.wallpaper.file: ~/dotfiles/images/wentworth_falls.png
+regolith.wallpaper.file: ~/dotfiles/images/imageedit_4_7587109146.jpg
 regolith.wallpaper.options: zoom
-regolith.lockscreen.wallpaper.file: ~/dotfiles/images/wentworth_falls.png
+regolith.lockscreen.wallpaper.file: ~/dotfiles/images/imageedit_4_7587109146.jpg
 regolith.lockscreen.wallpaper.options: zoom
 
 i3-wm.gaps.inner.size: 25
