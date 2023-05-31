@@ -1,19 +1,39 @@
 regolith.look.path: /usr/share/regolith-look/catppuccin
 
 ## Catppuccin specific tweaks
-i3-wm.bar.workspace.focused.border.color: #4c4f69
-i3-wm.bar.workspace.focused.background.color: #4c4f69
+i3-wm.bar.workspace.focused.border.color: #7d87b8
+i3-wm.bar.workspace.focused.background.color: #7d87b8
 i3-wm.bar.workspace.focused.text.color: #dce0e8
-i3-wm.bar.workspace.active.border.color: #bcc0cc
-i3-wm.bar.workspace.active.background.color: #bcc0cc
+i3-wm.bar.workspace.active.border.color: #b2bceb
+i3-wm.bar.workspace.active.background.color: #b2bceb
 i3-wm.bar.workspace.active.text.color: #4c4f69
-i3-wm.bar.workspace.inactive.border.color: #ccd0da
-i3-wm.bar.workspace.inactive.background.color: #ccd0da
+i3-wm.bar.workspace.inactive.border.color: #ccd4fc
+i3-wm.bar.workspace.inactive.background.color: #ccd4fc
 i3-wm.bar.workspace.inactive.text.color: #4c4f69
 i3-wm.bar.workspace.urgent.border.color: #fe640b
 i3-wm.bar.workspace.urgent.background.color: #fe640b
 i3-wm.bar.workspace.urgent.text.color: #dce0e8
-i3-wm.bar.background.color: #ccd0da
+i3-wm.bar.background.color: #ccd4fc
+
+i3-wm.workspace.01.name:        1:<span> </span><span font_desc='Hack Nerd Font Mono 12'>1 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.02.name:        2:<span> </span><span font_desc='Hack Nerd Font Mono 12'>2 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.03.name:        3:<span> </span><span font_desc='Hack Nerd Font Mono 12'>3 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.04.name:        4:<span> </span><span font_desc='Hack Nerd Font Mono 12'>4 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.05.name:        5:<span> </span><span font_desc='Hack Nerd Font Mono 12'>5 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.06.name:        6:<span> </span><span font_desc='Hack Nerd Font Mono 12'>6 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.07.name:        7:<span> </span><span font_desc='Hack Nerd Font Mono 12'>7 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.08.name:        8:<span> </span><span font_desc='Hack Nerd Font Mono 12'>8 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.09.name:        9:<span> </span><span font_desc='Hack Nerd Font Mono 12'>9 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.10.name:        10:<span> </span><span font_desc='Hack Nerd Font Mono 12'>10 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.11.name:        11:<span> </span><span font_desc='Hack Nerd Font Mono 12'>11 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.12.name:        12:<span> </span><span font_desc='Hack Nerd Font Mono 12'>12 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.13.name:        13:<span> </span><span font_desc='Hack Nerd Font Mono 12'>13 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.14.name:        14:<span> </span><span font_desc='Hack Nerd Font Mono 12'>14 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.15.name:        15:<span> </span><span font_desc='Hack Nerd Font Mono 12'>15 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.16.name:        16:<span> </span><span font_desc='Hack Nerd Font Mono 12'>16 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.17.name:        17:<span> </span><span font_desc='Hack Nerd Font Mono 12'>17 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.18.name:        18:<span> </span><span font_desc='Hack Nerd Font Mono 12'>18 </span><span foreground='#1e66f5'></span><span> </span>
+i3-wm.workspace.19.name:        19:<span> </span><span font_desc='Hack Nerd Font Mono 12'>19 </span><span foreground='#1e66f5'></span><span> </span>
 
 ## Force font everywhere
 gtk.document_font_name: Hack Nerd Font Mono 12
