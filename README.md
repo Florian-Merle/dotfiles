@@ -173,15 +173,17 @@ I also like to invert the function and the ctrl keys, this can easily be done in
 
 ## Swapping Caps Lock with Escape
 
-1. `sudo apt install dconf-tools`
-2. `dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"`
+In order to achieve this, I used a tool called [keyd](https://github.com/rvaiya/keyd).
 
-Alternatively, you can use the `dconf-editor` GUI once DConf tools are installed.
+Also, it by holding the caps lock key and hjkl, you can use the directionnal keys.
 
-> Use `caps:escape` instead if you want to just set Caps Lock to Escape instead
-> of swapping the functionality of the keys.
+```
+ln -s ~/dotfiles/keyd/default.conf /etc/keyd/default.conf
+sudo systemctl enable keyd && sudo systemctl start keyd
+sudo keyd reload
+```
 
-Credit to [@zanbaldwin](https://github.com/zanbaldwin/dotfiles/blob/main/README.md#swapping-caps-lock-with-escape)
+See https://www.youtube.com/watch?v=6UsmrviNjXM&ab_channel=ziontee113-Healthy-Director-702
 
 ## External keyboard
 
