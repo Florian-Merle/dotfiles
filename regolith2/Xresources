@@ -61,9 +61,9 @@ gnome.terminal.update: false
 i3-wm.program.files: /usr/bin/nautilus --new-window --class=floating_window
 
 ## Remap dec_gaps otherwise it is colliding with moving a window to the 6th workspace 
-i3-wm.binding.dec_gaps: parenright
-i3-wm.binding.dec_gaps_big: Shift+parenright
+i3-wm.binding.dec_gaps: minus
+i3-wm.binding.dec_gaps_big: Shift+minus
 
 ## Remap vertical and horizontal window orientation
-i3-wm.binding.split_v: ugrave
-i3-wm.binding.split_h: asterisk
+i3-wm.binding.split_v: semicolon
+i3-wm.binding.split_h: apostrophe

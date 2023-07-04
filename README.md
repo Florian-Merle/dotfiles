@@ -317,7 +317,7 @@ In order to use the trackpad via bluetooth, the trackpad, should be disconnect, 
 
 # i3 cheatsheet
 win + a to go to parent
-win + ^ for stacked
-win + $ for tabbed
-win + ù for horizontal
-win + * for vertical
+win + [ for stacked
+win + ] for tabbed
+win + ; for horizontal
+win + ' for vertical

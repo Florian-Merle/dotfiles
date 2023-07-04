@@ -15,11 +15,11 @@ workspace 9  output $i3-wm.screen.laptop
 workspace 10 output $i3-wm.screen.laptop
 
 # layout
-bindsym $mod+dollar split horizontal, layout tabbed
-bindsym $mod+shift+dollar layout tabbed
+bindsym $mod+bracketright split horizontal, layout tabbed
+bindsym $mod+shift+bracketright layout tabbed
 
-bindsym $mod+dead_circumflex split horizontal, layout stacked
-bindsym $mod+shift+dead_circumflex layout stacked
+bindsym $mod+bracketleft split horizontal, layout stacked
+bindsym $mod+shift+bracketleft layout stacked
 
-bindsym $mod+shift+ugrave layout splitv
-bindsym $mod+shift+asterisk layout splith
+bindsym $mod+shift+semicolon layout splitv
+bindsym $mod+shift+apostrophe layout splith
