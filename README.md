@@ -300,6 +300,18 @@ udevadm info --attribute-walk --path="/sys/devices/pci0000:00/0000:00:14.0/usb3/
 
 Finally, to build the rule, I used both the idProduct and idVendor.
 
+### Misc apps
+
+```sh
+sudo ln -s ~/dotfiles/scripts/cdiscord.sh /usr/bin/cdiscord
+sudo ln -s ~/dotfiles/scripts/cspotify.sh /usr/bin/cspotify
+sudo ln -s ~/dotfiles/scripts/ctelegram.sh /usr/bin/ctelegram
+
+sudo ln -s ~/dotfiles/applications/discord.desktop /usr/share/applications/cdiscord.desktop
+sudo ln -s ~/dotfiles/applications/spotify.desktop /usr/share/applications/cspotify.desktop
+sudo ln -s ~/dotfiles/applications/telegram.desktop /usr/share/applications/ctelegram.desktop
+```
+
 ### Additional notes
 
 In order to use the trackpad via bluetooth, the trackpad, should be disconnect, then turned off and on again and it should be available in the list of bluetooth devices. See https://github.com/mwyborski/Linux-Magic-Trackpad-2-Driver
