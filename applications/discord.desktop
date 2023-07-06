@@ -2,3 +2,4 @@
 Type=Application
 Name=Discord
 Exec=cdiscord
+Icon=/home/florian/dotfiles/applications/discord.png

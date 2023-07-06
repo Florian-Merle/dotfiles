@@ -2,3 +2,4 @@
 Type=Application
 Name=Spotify
 Exec=cspotify
+Icon=/home/florian/dotfiles/applications/spotify.png
