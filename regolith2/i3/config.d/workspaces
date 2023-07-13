@@ -21,5 +21,5 @@ bindsym $mod+shift+bracketright layout tabbed
 bindsym $mod+bracketleft split horizontal, layout stacked
 bindsym $mod+shift+bracketleft layout stacked
 
-bindsym $mod+shift+semicolon layout splitv
-bindsym $mod+shift+apostrophe layout splith
+bindsym $mod+shift+semicolon layout splith
+bindsym $mod+shift+apostrophe layout splitv

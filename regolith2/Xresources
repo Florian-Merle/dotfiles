@@ -65,5 +65,5 @@ i3-wm.binding.dec_gaps: minus
 i3-wm.binding.dec_gaps_big: Shift+minus
 
 ## Remap vertical and horizontal window orientation
-i3-wm.binding.split_v: semicolon
-i3-wm.binding.split_h: apostrophe
+i3-wm.binding.split_h: semicolon
+i3-wm.binding.split_v: apostrophe
