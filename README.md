@@ -185,16 +185,11 @@ sudo keyd reload
 
 See https://www.youtube.com/watch?v=6UsmrviNjXM&ab_channel=ziontee113-Healthy-Director-702
 
-## External keyboard
+## Font
 
-My keyboard is a Ducky Channel one 2 tkl (DKON1887), see [the manual](https://mechanicalkeyboards.com/manuals/Ducky_One2_FullTKL_manual.pdf) and [this guide](https://gist.github.com/schmich/47819eac9cafed14d3bfe2195ea222be) to define them.
+The font I use is called [CommitMono](https://commitmono.com/). I patched it with [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), see the script `FontPatcher/commit.sh`.
 
-I currenlty have the following macros.
-
-| Macro | Action |
-| - | - |
-| `Fn + ^` | Volume down |
-| `Fn + $` | Volume up |
+Note, that I do not like ligatures, so the script disables them.
 
 # Credits
 

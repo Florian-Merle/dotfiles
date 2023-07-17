@@ -15,34 +15,34 @@ i3-wm.bar.workspace.urgent.background.color: #fe640b
 i3-wm.bar.workspace.urgent.text.color: #f0f0f0
 i3-wm.bar.background.color: #ffffff
 
-i3-wm.workspace.01.name:        1:<span> </span><span font_desc='Hack Nerd Font Mono 12'>1 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.02.name:        2:<span> </span><span font_desc='Hack Nerd Font Mono 12'>2 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.03.name:        3:<span> </span><span font_desc='Hack Nerd Font Mono 12'>3 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.04.name:        4:<span> </span><span font_desc='Hack Nerd Font Mono 12'>4 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.05.name:        5:<span> </span><span font_desc='Hack Nerd Font Mono 12'>5 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.06.name:        6:<span> </span><span font_desc='Hack Nerd Font Mono 12'>6 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.07.name:        7:<span> </span><span font_desc='Hack Nerd Font Mono 12'>7 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.08.name:        8:<span> </span><span font_desc='Hack Nerd Font Mono 12'>8 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.09.name:        9:<span> </span><span font_desc='Hack Nerd Font Mono 12'>9 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.10.name:        10:<span> </span><span font_desc='Hack Nerd Font Mono 12'>10 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.11.name:        11:<span> </span><span font_desc='Hack Nerd Font Mono 12'>11 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.12.name:        12:<span> </span><span font_desc='Hack Nerd Font Mono 12'>12 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.13.name:        13:<span> </span><span font_desc='Hack Nerd Font Mono 12'>13 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.14.name:        14:<span> </span><span font_desc='Hack Nerd Font Mono 12'>14 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.15.name:        15:<span> </span><span font_desc='Hack Nerd Font Mono 12'>15 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.16.name:        16:<span> </span><span font_desc='Hack Nerd Font Mono 12'>16 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.17.name:        17:<span> </span><span font_desc='Hack Nerd Font Mono 12'>17 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.18.name:        18:<span> </span><span font_desc='Hack Nerd Font Mono 12'>18 </span><span foreground='#2b2b2b'></span><span> </span>
-i3-wm.workspace.19.name:        19:<span> </span><span font_desc='Hack Nerd Font Mono 12'>19 </span><span foreground='#2b2b2b'></span><span> </span>
+i3-wm.workspace.01.name:        1:<span font_desc='CommitMono Nerd Font 12'>(1)</span>
+i3-wm.workspace.02.name:        2:<span font_desc='CommitMono Nerd Font 12'>(2)</span>
+i3-wm.workspace.03.name:        3:<span font_desc='CommitMono Nerd Font 12'>(3)</span>
+i3-wm.workspace.04.name:        4:<span font_desc='CommitMono Nerd Font 12'>(4)</span>
+i3-wm.workspace.05.name:        5:<span font_desc='CommitMono Nerd Font 12'>(5)</span>
+i3-wm.workspace.06.name:        6:<span font_desc='CommitMono Nerd Font 12'>(6)</span>
+i3-wm.workspace.07.name:        7:<span font_desc='CommitMono Nerd Font 12'>(7)</span>
+i3-wm.workspace.08.name:        8:<span font_desc='CommitMono Nerd Font 12'>(8)</span>
+i3-wm.workspace.09.name:        9:<span font_desc='CommitMono Nerd Font 12'>(9)</span>
+i3-wm.workspace.10.name:        10:<span font_desc='CommitMono Nerd Font 12'>(10)</span>
+i3-wm.workspace.11.name:        11:<span font_desc='CommitMono Nerd Font 12'>(11)</span>
+i3-wm.workspace.12.name:        12:<span font_desc='CommitMono Nerd Font 12'>(12)</span>
+i3-wm.workspace.13.name:        13:<span font_desc='CommitMono Nerd Font 12'>(13)</span>
+i3-wm.workspace.14.name:        14:<span font_desc='CommitMono Nerd Font 12'>(14)</span>
+i3-wm.workspace.15.name:        15:<span font_desc='CommitMono Nerd Font 12'>(15)</span>
+i3-wm.workspace.16.name:        16:<span font_desc='CommitMono Nerd Font 12'>(16)</span>
+i3-wm.workspace.17.name:        17:<span font_desc='CommitMono Nerd Font 12'>(17)</span>
+i3-wm.workspace.18.name:        18:<span font_desc='CommitMono Nerd Font 12'>(18)</span>
+i3-wm.workspace.19.name:        19:<span font_desc='CommitMono Nerd Font 12'>(19)</span>
 
 ## Force font everywhere
-gtk.document_font_name: Hack Nerd Font Mono 12
-gtk.font_name: Hack Nerd Font Mono 12
-gtk.monospace_font_name: Hack Nerd Font Mono 12
-gnome.terminal.font: Hack Nerd Font Mono 12
-i3-wm.bar.font: Hack Nerd Font Mono 12
-i3-wm.font: Hack Nerd Font Mono 12
-i3xrocks.value.font: Hack Nerd Font Mono 12
+gtk.document_font_name: CommitMono Nerd Font 12
+gtk.font_name: CommitMono Nerd Font 12
+gtk.monospace_font_name: CommitMono Nerd Font 12
+gnome.terminal.font: CommitMono Nerd Font 12
+i3-wm.bar.font: CommitMono Nerd Font 12
+i3-wm.font: CommitMono Nerd Font 12
+i3xrocks.value.font: CommitMono Nerd Font 12
 
 regolith.wallpaper.file: ~/dotfiles/images/topography.jpeg
 regolith.wallpaper.options: zoom
