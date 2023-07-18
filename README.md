@@ -187,7 +187,7 @@ See https://www.youtube.com/watch?v=6UsmrviNjXM&ab_channel=ziontee113-Healthy-Di
 
 ## Font
 
-The font I use is called [CommitMono](https://commitmono.com/). I patched it with [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), see the script `FontPatcher/commit.sh`.
+The font I use is called [CommitMono](https://commitmono.com/). I patched it with [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), see the repository [Florian-Merle/CommitMono-FontPatcher](https://github.com/Florian-Merle/CommitMono-FontPatcher) and its script `FontPatcher/commit.sh`.
 
 Note, that I do not like ligatures, so the script disables them.
 
