@@ -323,8 +323,9 @@ In order to use the trackpad via bluetooth, the trackpad, should be disconnect, 
 * play with a new compositor https://www.reddit.com/r/unixporn/comments/s5i6i3/oc_an_xorg_compositor_forked_from_xcompmgr_with/
 
 # i3 cheatsheet
-win + a to go to parent
-win + [ for stacked
-win + ] for tabbed
-win + ; for horizontal
-win + ' for vertical
+
+* win + a to go to parent
+* win + [ for stacked
+* win + ] for tabbed
+* win + ; for horizontal
+* win + ' for vertical
