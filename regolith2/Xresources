@@ -44,10 +44,10 @@ i3-wm.bar.font: CommitMono Nerd Font 12
 i3-wm.font: CommitMono Nerd Font 12
 i3xrocks.value.font: CommitMono Nerd Font 12
 
-regolith.wallpaper.file: ~/dotfiles/images/topography.jpeg
-regolith.wallpaper.options: zoom
-regolith.lockscreen.wallpaper.file: ~/dotfiles/images/topography.jpeg
-regolith.lockscreen.wallpaper.options: zoom
+regolith.wallpaper.file: ~/dotfiles/images/topo-mono.png
+regolith.wallpaper.options: wallpaper
+regolith.lockscreen.wallpaper.file: ~/dotfiles/images/topo-mono.png
+regolith.lockscreen.wallpaper.options: wallpaper
 
 i3-wm.gaps.inner.size: 25
 i3-wm.program.unclutter: :
