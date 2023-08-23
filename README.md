@@ -296,6 +296,14 @@ udevadm info --attribute-walk --path="/sys/devices/pci0000:00/0000:00:14.0/usb3/
 
 Finally, to build the rule, I used both the idProduct and idVendor.
 
+### Kitty
+
+https://github.com/kovidgoyal/kitty/issues/1101#issuecomment-483072764
+
+```sh
+ln -s ~/dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
+```
+
 ### Misc apps
 
 ```sh
