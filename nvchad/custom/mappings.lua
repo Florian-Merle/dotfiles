@@ -45,6 +45,7 @@ M.general = {
       end,
       "last buffer",
     },
+    ["<leader>wl"] = { ":set wrap! <CR>"},
   }
 }
 
